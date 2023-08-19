@@ -3,9 +3,9 @@ import Link  from 'next/link';
 import Image from 'next/image';
 const Nav = () => {
     return (
-    <nav className='w-full bg-gray p-3 flex gap-5 justify-center items-center '>
+    <nav className='w-full bg-gr p-3 flex gap-5 justify-center items-center '>
         
-        <Link className='mr-auto' href="/" >
+        <Link className='ml-2 mr-auto' href="/" >
             <Image  src="/home-1.png" alt='home' width={40} height={40} />
         </Link>
         <Link href="/" className= "hover:text-sk  text-white font-semibold">Home</Link>
