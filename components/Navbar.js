@@ -1,19 +1,20 @@
 "use client";
 import Link  from 'next/link';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
 const Nav = () => {
-    const path = usePathname();
     return (
-    <nav className='w-full bg-gra mb-4 p-2 flex gap-4 justify-center items-center '>
-        <div className='mr-auto'>
-        <Link href="/" ><Image src="/home-1.png" alt='logo' width={60} height={60} /></Link>
-        </div>
-        <Link href="/" className={`${path==="/" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Home</Link>
-        <Link href="/about" className={`${path==="/about" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`} >About</Link>
-        <Link href="/forks" className={`${path==="/forks" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Fork Listing</Link>
-        <Link href="/courses" className={`${path==="/courses" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Courses</Link>
-        <Link href="/reduxtoolkit" className={`${path==="/reduxtoolkit" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Redux Toolkit</Link>
+    <nav className='w-full bg-gray p-3 flex gap-5 justify-center items-center '>
+        
+        <Link className='mr-auto' href="/" >
+            <Image  src="/home-1.png" alt='home' width={40} height={40} />
+        </Link>
+        <Link href="/" className= "hover:text-sk  text-white font-semibold">Home</Link>
+        <Link href="/" className="hover:text-sk  text-white font-semibold">Sevices</Link>
+        <Link href="/" className= " hover:text-sk   text-white font-semibold">Performance</Link>
+        <Link href="/" className= " hover:text-sk   text-white font-semibold">Blog</Link>
+        <Link href="/" className="hover:text-sk  text-white font-semibold">About Us</Link>
+        <Link href="/" className= " hover:text-sk   text-white font-semibold">Login/Signup</Link>
+        <Link href="/" className= "mr-auto hover:text-sk   text-white font-semibold">Special Offers</Link>
 
     </nav>);
 }
