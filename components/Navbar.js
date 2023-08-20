@@ -16,7 +16,7 @@ const Nav = () => {
         <Link href="/" className= " hover:text-sk   text-white font-semibold">Blog</Link>
         <Link href="/" className="hover:text-sk  text-white font-semibold">About Us</Link>
         <Link href="/" className= " hover:text-sk   text-white font-semibold">Login/Signup</Link>
-        <Link href="/" className= " hover:text-sk   text-white font-semibold">Special Offers</Link>
+        <Link href="/" className= " hover:text-sk   text-white font-semibold"><span>Special Offers</span></Link>
         </div>
     </nav>);
 }
