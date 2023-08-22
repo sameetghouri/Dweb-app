@@ -39,7 +39,7 @@ export default function Home() {
 
         </div>
       </div>
-      <div className='flex flex-col items-center  bg-[url(/banner-1.jpg)] bg-cover rounded w-full min-h-screen'>
+      <div className='flex flex-col items-center  bg-[url(/b1.jpg)] bg-cover rounded w-full min-h-screen'>
         <h1 className='font-semibold leading-snug text-center text-[44px] text-gray-100 w-8/12 pt-10'>Intelligent Signals Token (INSIG) is the driving force behind an Artificial Intelligence (AI) based Visual Signaling (VST) system.</h1>
         <Image className='pt-4' src="/mainimg.png" alt='mainimg' width={1000} height={500} />
       </div>
@@ -55,12 +55,32 @@ export default function Home() {
         <div className='w-2/3 lg:w-1/2 py-8 lg:pl-2 '>
           <Image src="/ab-img.png" alt='a' width={800} height={800} />
         </div>
-        <div className=' w-3/4 py-8 lg:w-1/2  lg:pl-8 lg:pr-6  flex flex-col gap-4 justify-center' >
-          <h1 className='text-5xl text-white'>What are Intelligent Signals?</h1>
-          <p className='text-gray-300 leading-7 '>The Intelligent Signals Token (INSIG) is the driving force behind an Artificial Intelligence (AI) based Visual Signalling (VST) system.
+        <div className=' w-3/4  py-8 lg:w-1/2  lg:pl-8 lg:pr-6  flex flex-col gap-4 justify-center' >
+          <h1 className=' text-5xl text-white'>What are Intelligent Signals?</h1>
+          <p className='text-gray-400 leading-7 '>The Intelligent Signals Token (INSIG) is the driving force behind an Artificial Intelligence (AI) based Visual Signalling (VST) system.
             The VST system utilises technical analysis techniques, specifically the GANN method, to analyse crypto charts and identify optimal market entry and exit points for trading cryptocurrencies.
             Created by experienced traders and software engineers with over 50 years of experience in financial markets, this system takes the guesswork out of trading.
             It employs a systematic approach using historical data to predict future market movements. The Intelligent Signals platform boasts a 70% success rate.</p>
+        </div>
+      </div>
+
+      <div className='flex flex-col items-center  bg-[url(/b2.jpg)] bg-cover rounded w-full min-h-screen'>
+        <h1 className='pt-10 text-[44px] text-gray-100 font-semibold'>Why use Intelligent Signals?</h1>
+        <p className='text-gray-300'>Trading in Crypto is not easy, and most traders lose money! Online educational resource Tradeciety (www.tradeciety.com) </p>
+      </div>
+
+      <div className='flex flex-col  justify-center items-center mt-10 lg:flex-row  w-full  max-w-6xl min-h-screen'>
+        <div className='w-2/3 lg:w-1/2 py-8 lg:pl-2 '>
+          <Image src="/ab-img.png" alt='a' width={800} height={800} />
+        </div>
+        <div className=' w-3/4 py-8 lg:w-1/2  lg:pl-8 lg:pr-6  flex flex-col gap-4 justify-center' >
+          <h1 className='text-5xl text-white'>Staking</h1>
+          <p className='text-gray-300 leading-7 '>
+          We want to introduce the staking feature so people can earn more with their tokens. Staking is a way of supporting the security and stability of the network while also earning passive income. 
+          Staking in the context of cryptocurrencies refers to holding and locking up a certain amount of tokens in a cryptocurrency network to participate in the network's consensus mechanism and earn rewards.
+           In the context of staking, crypto signals help traders determine which cryptocurrencies to stake and for how long. For example, a signal may indicate that a particular cryptocurrency will likely 
+           experience price appreciation over the next few months, making it a good candidate for staking.
+          </p>
         </div>
       </div>
 
