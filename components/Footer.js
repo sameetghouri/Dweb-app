@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="bg-black   pt-6 w-full flex flex-col items-center">
         <div className='bg-black w-full max-w-5xl flex flex-col items-center'>
         <div className='py-10 border-b flex justify-center lg:justify-end w-full border-gr1'>
-            <h2 className='text-gray-200 text-2xl font-semibold mr-auto'>Get Ecosystem updates in your inbox</h2>
-            <form className='flex flex-col w-1/2 gap-6'>
+            <h2 className='text-gray-200 text-[35px] font-semibold mr-auto'>Get Ecosystem updates in your inbox</h2>
+            <form className='flex flex-col w-1/2 gap-6 pt-3'>
                 <h2 className=' text-gr3 text-2xl font-semibold '>Lets Get in touch with us</h2>
                 <div className='flex flex-col gap-y-5'>
                 <input className=' rounded bg-gray-400  p-2 placeholder:text-gr' type='email' placeholder='Full name'/>
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
        
         
-        <div className='py-10 w-full  border-b border-gr1 grid lg:grid-cols-4 grid-cols-2 gap-4 text-white'>
+        <div className='py-10 px-2 w-full  border-b border-gr1 grid lg:grid-cols-4 grid-cols-2 gap-4 text-white'>
         <div className='col-span-1 flex flex-col gap-3'>
             <h2 className='font-semibold '>Learn</h2>
         <Link href="/" className= "hover:text-white  text-gr1 ">Home</Link>
@@ -56,7 +56,7 @@ const Footer = () => {
 
         </div>
         </div>
-        <div className='py-10 w-full text-white flex items-center'>
+        <div className='py-10 pl-2 w-full text-white flex items-center'>
         <Image  src="/home-1.png" alt='home' width={130} height={65} />
         <button type='submit' className='text-white ml-auto mr-28 px-3 py-2 rounded-lg bg-sk hover:bg-sk1 transition duration-200'>Subscribe Now</button>
 
