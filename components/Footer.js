@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <div className='py-10 w-full text-white flex items-center'>
         <Image  src="/home-1.png" alt='home' width={130} height={65} />
-        <button type='submit' className='text-white ml-auto mr-28 px-3 py-2 rounded-lg bg-sk hover:bg-sk2 transition duration-200'>Subscribe Now</button>
+        <button type='submit' className='text-white ml-auto mr-28 px-3 py-2 rounded-lg bg-sk hover:bg-sk1 transition duration-200'>Subscribe Now</button>
 
 
 
