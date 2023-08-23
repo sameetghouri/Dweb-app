@@ -21,10 +21,10 @@ const Nav = () => {
         <Link href="/" className="hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold">Sevices</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">How It Works</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Blog</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">FAQ</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Special Offers</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Contact Us</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Performance</Link>
+        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">FAQ</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Login/Signup</Link>
 
         </div>
