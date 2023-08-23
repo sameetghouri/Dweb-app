@@ -15,7 +15,7 @@ const Nav = () => {
         </Link>
         </div>
         
-        <div className='hidden ml-4 mr-2  overflow-hidden lg:flex lg:gap-5 lg:items-end '>     
+        <div className='hidden ml-4  mr-2  overflow-hidden lg:flex lg:gap-6 lg:items-end '>     
         <Link href="/" className= "hover:text-sk border-b border-gr hover:border-sk  transition duration-300 ease-in-out text-white font-semibold">Home</Link>
         <Link href="/" className="hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold">About Us</Link>
         <Link href="/" className="hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold">Sevices</Link>
@@ -30,8 +30,8 @@ const Nav = () => {
         </div>
         
         <div className=' ml-auto flex'>
-        <button className='px-2 mr-4 bg-sk text-white font-semibold text-sm rounded hover:bg-sk1
-         transition duration-200'>INSIG TOKEN</button>
+        <button className='px-2 mr-4 bg-sk text-white font-semibold text-sm rounded-lg hover:bg-sk1
+         transition duration-300 ease-in-out'>INSIG TOKEN</button>
 
         <HiMenuAlt2 className="lg:hidden w-10 h-10 text-gray-200 hover:text-sk cursor-pointer" onClick={openfun} />
         </div>

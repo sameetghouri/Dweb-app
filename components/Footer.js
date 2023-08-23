@@ -65,6 +65,7 @@ const Footer = () => {
         </div>
         </div>
         <div className="flex w-full flex-col py-8 bg-gr2 lg:flex-row gap-5 justify-center items-center ">
+            
         <Link href="/" className= " hover:text-gre   text-white font-semibold">Terms of use </Link>
         <Link href="/" className= " hover:text-gre   text-white font-semibold"> Privacy Policy</Link>
 
