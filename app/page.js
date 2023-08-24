@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className='text-white text-6xl font-semibold'>INSIGNAL TOKEN.</h1>
           <p className='text-3xl font-semibold text-gr3 '>Start Trading Now</p>
           <p className='text-xl text-gray-300'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-          <button className='mt-4 px-4 py-2 mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Start Now</button>
+          <button className='mt-4 w-1/2 px-4 py-2 mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Start Now</button>
         </div>
         <div className='w-3/4 lg:w-1/2 pt-8 pr-2 '>
           <Image src="/base.png" alt='a' width={900} height={900} />
@@ -72,12 +72,15 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col pt-14 items-center w-full min-h-screen'>
-        <div className='flex justify-center'>
-          <button className='py-2 px-4 text-white rounded-l-full  bg-green-500 hover:bg-green-400 hover:scale-105 transition duration-300 '>Buy Insign token</button>
-          <button className='py-2 px-4 text-white rounded-r-full  bg-cyan-500 hover:bg-cyan-500 hover:scale-105 transition duration-300'>White Paper</button>
+        <div className='flex justify-center pb-6'>
+          <button className='py-3 px-5 text-white rounded-l  bg-gradient-to-b  from-[#679df5] to-[#0061ff] hover:scale-105 transition duration-300 '>Buy Insign token</button>
+          <button className='py-3 px-5 text-white rounded-r  bg-gradient-to-b from-[#ff88a5] to-[#d82955]   hover:scale-105 transition duration-300'>White Paper</button>
         </div>
-
-        <div className='bg-[#8a868e] rounded mt-14 px-4 overflow-x-auto py-8 w-11/12 flex flex-col lg:flex-row items-center justify-around gap-4'>
+        <div className='py-3 flex items-center gap-2'>
+          <h4 className='text-white text-2xl'>In this video you will learn How this website works</h4>
+          <FaRegLightbulb className='w-8 h-8 mt-2 text-white animate-pulse'/>
+          </div>
+        <div className='bg-[#8a868e] rounded  px-4 overflow-x-auto py-8 w-11/12 flex flex-col lg:flex-row items-center justify-around gap-4'>
           <div className='w-1/3 pl-2 lg:pl-4'>
             <Image src="/svg1.svg" alt='svg1' width={500} height={500} />
           </div>
@@ -87,12 +90,23 @@ export default function Home() {
         </div>
       </div>
 
+      <div className=' bg-gradient-to-b from-purple-400 to-purple-700 mt-6 w-full flex justify-center'>
+        <div className='py-14 px-4  w-full max-w-6xl flex flex-col lg:flex-row  items-center gap-y-8'>
+          <div className=''>
+            <h3 className='text-white font-semibold text-2xl'>Make your on demand app the next success story</h3>
+          </div> 
+          <div className='lg:ml-auto'>
+            <Link className='px-4 py-3 ml-auto font-semibold bg-gray-800 text-white shadow-lg rounded-xl  hover:bg-gray-100 hover:text-gr transition duration-300 ease-in' href='/'>Get in Touch</Link>
+          </div>
+        </div>
+      </div>
+
       <div className='flex flex-col  items-center mt-10 lg:flex-row  w-full  max-w-6xl min-h-screen'>
         <div className='w-2/3 flex justify-center lg:w-1/2 py-8 lg:pl-8'>
           <Image src="/ab-img.png" alt='a' width={500} height={500} />
         </div>
         <div className=' w-3/4  py-8 lg:w-1/2  lg:pl-8 lg:pr-6  flex flex-col gap-4 justify-center' >
-          <h1 className=' text-5xl text-white'>What are Intelligent Signals?</h1>
+          <h1 className=' text-5xl text-white'>What are Intelligent <span className='text-blue-400 animate-pulse  '>Signals?</span></h1>
           <p className='text-gray-400 leading-7 '>The Intelligent Signals Token (INSIG) is the driving force behind an Artificial Intelligence (AI) based Visual Signalling (VST) system.
             The VST system utilises technical analysis techniques, specifically the GANN method, to analyse crypto charts and identify optimal market entry and exit points for trading cryptocurrencies.
             Created by experienced traders and software engineers with over 50 years of experience in financial markets, this system takes the guesswork out of trading.
@@ -102,7 +116,7 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col items-center px-4 bg-[url(/b2.jpg)] bg-cover rounded w-full  '>
-        <h1 className='pt-20  text-[44px] text-gray-100 font-semibold'>Why use Intelligent Signals?</h1>
+        <h1 className='pt-20  text-[44px] text-gray-100 font-semibold'>Why use Intelligent <span className='text-blue-400 animate-pulse  '>Signals?</span></h1>
         <h4 className='pt-4  text-gray-300 '>Trading in Crypto is not easy, and most traders lose money! Online educational resource Tradeciety (www.tradeciety.com) </h4>
         <div className='py-10 px-4 w-full max-w-4xl flex flex-col md:flex-row md:items-start md:justify-center items-center gap-x-12 gap-y-7'>
           <div className='flex flex-col w-3/4 md:w-1/3 gap-6'>
@@ -121,11 +135,8 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col  justify-center items-center mt-10 lg:flex-row  w-full  max-w-6xl min-h-screen'>
-        <div className='w-2/3 flex justify-center lg:w-1/2 py-8 lg:pl-8 '>
-          <Image src="/ab-img.png" alt='a' width={500} height={500} />
-        </div>
-        <div className=' w-3/4 py-8 lg:w-1/2  lg:pl-8 lg:pr-6  flex flex-col gap-4 justify-center' >
-          <h1 className='text-5xl text-white'>Staking</h1>
+        <div className=' w-3/4 py-8 lg:w-1/2  lg:pl-9   flex flex-col gap-4 justify-center' >
+          <h1 className='text-5xl text-white'> <span className='text-green-400 animate-pulse'>Staking</span></h1>
           <h2 className='text-3xl text-gr3'>Build the Future with Intell Signals</h2>
           <p className='text-gray-300 leading-7 '>
             We want to introduce the staking feature so people can earn more with their tokens. Staking is a way of supporting the security and stability of the network while also earning passive income.
@@ -134,6 +145,9 @@ export default function Home() {
             experience price appreciation over the next few months, making it a good candidate for staking.
           </p>
           <button className='mt-4 px-4 py-2 mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Learn More</button>
+        </div>
+        <div className='w-2/3 flex justify-center lg:pl-6 lg:w-1/2 py-8  '>
+          <Image src="/ab-img.png" alt='a' width={500} height={500} />
         </div>
 
       </div>

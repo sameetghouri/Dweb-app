@@ -30,7 +30,7 @@ const Nav = () => {
         </div>
         
         <div className=' ml-auto flex'>
-        <button className='px-2 mr-4 bg-sk text-white font-semibold text-sm rounded-lg hover:bg-sk1
+        <button className='px-4 mr-4 bg-sk text-white font-semibold text-sm rounded-lg hover:bg-sk1
          transition duration-300 ease-in-out'>INSIG TOKEN</button>
 
         <HiMenuAlt2 className="lg:hidden w-10 h-10 text-gray-200 hover:text-sk cursor-pointer" onClick={openfun} />
