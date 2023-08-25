@@ -94,16 +94,16 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center w-full  pt-8  pb-3 bg-gr2 gap-y-4 ">
           <div className='flex items-center gap-4'>
-            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
             <Image  src="/wa.png" alt='home' width={24} height={24} />
             </div>
-            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
             <Image  src="/li.png" alt='home' width={24} height={24} />
             </div>
-            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
             <Image  src="/gm.png" alt='home' width={24} height={24} />
             </div>
-            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
             <Image  src="/tp.png" alt='home' width={24} height={24} />
             </div>
           </div>

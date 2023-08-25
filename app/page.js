@@ -82,11 +82,11 @@ export default function Home() {
           <FaRegLightbulb className='w-8 h-8 mt-2 text-white animate-pulse' />
         </div>
         <div className='bg-[#e0e0e0] rounded  px-10 overflow-x-auto py-8 w-11/12 flex flex-col lg:flex-row items-center justify-around gap-4'>
-          <div className='w-1/2  flex justify-center'>
+          <div className='w-1/2 hidden lg:flex justify-center'>
             <Image src="/svg1.svg" alt='svg1' width={450} height={450} />
           </div>
-          <div className='w-1/2 flex flex-col items-center'>
-            <iframe className='rounded-3xl' width="600" height="337" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div className='lg:w-1/2 w-3/4 flex flex-col items-center'>
+          <iframe className='rounded-3xl' width="600" height="337" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@ export default function Home() {
 
       </div>
 
-      <div className='py-10 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
+      <div className='py-10 z-1 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
         <div className='flex flex-col bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
           <h3 className='text-gray-100 text-2xl font-semibold'>BYE BYE GPU MINING</h3>
           <p className='text-gray-300'>Mining Helium tokens with Hotspots is done via radio technology, not expensive or wasteful GPUs.</p>
@@ -195,7 +195,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='mt-10 bg-[url(/b3.jpg)] min-h-screen bg-center w-full flex justify-center '>
+      <div className='mt-10 bg-[url(/b3.jpg)] min-h-screen bg-cover w-full flex justify-center '>
         <div className='flex flex-col md:flex-row w-full max-w-6xl md:items-stretch items-center px-4 py-8'>
           <div className='flex md:w-1/2 w-4/5 px-6 flex-col items-center  gap-8'>
             <h2 className='text-5xl font-semi-bold text-white'>Tokenomics</h2>
@@ -222,7 +222,7 @@ export default function Home() {
           </div>
           <div className='flex md:w-1/2 w-4/5 px-6 mt-3 md:-mt-0  flex-col items-center  gap-8'>
             <h2 className='text-5xl font-semi-bold text-white'>Token Distribution</h2>
-            <div className=''><Image src="/circle.png" alt='a' width={300} height={300} /></div>
+            <div className=''><Image src="/circle.png" alt='a' width={500} height={500} /></div>
             <div className='flex flex-col items-center'>
               <h3 className='text-3xl font-semibold text-white'>Token Utility</h3>
               <p className='text-2xl text-white'>INSIG tokens are required to pay for Intelligent Signals subscriptions on its proprietary trading platform.
@@ -232,6 +232,59 @@ export default function Home() {
         </div>
       </div>
 
+      <div className='  bg-white min-h-screen w-full flex flex-col items-center '>
+        <div className=' bg-[url(/b4.jpg)] bg-contain bg-no-repeat h-screen w-full '>
+        </div>
+        <div className='relative -top-36 w-4/5 bg-opacity-0 flex flex-col items-center gap-4'>
+          <h2 className='text-[42px] font-bold text-black'>Introduction to AI and ML with Application and Future</h2>
+          <h3 className='text-4xl  font-semibold text-gray-700'>Massive, Decentralized Connectivity</h3>
+          <p className='text-gray-700 text-xl pt-2'>Machine Learning (ML) is a subset of Artificial Intelligence (AI) that can potentially transform various industries, including finance and Cryptocurrency.
+            Unlike traditional programming, ML algorithms enable computers to learn and improve their performance on a specific task by processing and making predictions or decisions based on that data. The more data the algorithm is trained on, the more accurate its predictions become. </p>
+          <p className='text-gray-700 text-xl pt-2'>AI and ML have already significantly impacted many industries by enabling machines to perform tasks that were once considered exclusive to humans, such as decision-making, problem-solving, and creativity. ML is used in various applications, including image and speech recognition, natural language processing, fraud detection, and autonomous driving.
+            However, the rapid growth of AI and ML also raises important ethical, social, and economic questions that must be addressed.</p>
+          <button className='mt-4 px-6 py-4 font-semibold bg-gre text-white rounded-lg hover:scale-105 hover:bg-sk transition duration-200 ease-in '>Use The Network</button>
+        </div>
+        <div className='pb-4 z-1 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
+          <div className='flex flex-col bg-gray-200 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+            <h3 className='text-gray-900 text-xl font-semibold'>AN OPEN ALTERNATIVE</h3>
+            <p className='text-gray-700'>The People's Network is built on Open Source technology and governed by its worldwide community with stewardship from the Helium Foundation.</p>
+          </div>
+          <div className=' flex flex-col bg-gray-200 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+            <h3 className='text-gray-900 text-xl font-semibold'>SCALABLE & AFFORDABLE</h3>
+            <p className='text-gray-700'>Say goodbye to expensive cell contracts. On Helium a sensor can cost cents to run a year.</p>
+          </div>
+          <div className='flex flex-col bg-gray-200 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+            <h3 className='text-gray-900 text-xl font-semibold'>LORAWAN-COMPATIBLE</h3>
+            <p className='text-gray-700'>Utilize thousands of existing sensors, chipsets and MCUs for streamlined development.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-[url(/b5.jpg)] min-h-screen bg-cover w-full flex justify-center '>
+        <div className='flex flex-col lg:flex-row w-full max-w-7xl lg:items-stretch items-center py-8'>
+          <div className='flex lg:w-1/2 w-4/5 p-2 flex-col items-center justify-center'>
+            <Image src="/com.png" alt='a' width={700} height={700} />
+          </div>
+          <div className='flex lg:w-1/2 w-4/5 p-2 mt-3 lg:-mt-0  flex-col rounded-xl bg-black bg-opacity-40 hover:bg-opacity-50  gap-8'>
+            <h2 className='text-5xl font-semi-bold text-white'>Intelligent Signal Ecosystem</h2>
+              <p className='text-xl text-gray-100'>Community-Centric: Intelligent Signals believes the community is the key to success, especially in Web3.
+               The happier and more successful a project community is, the more likely the members are to spread the word and help Intelligent Signals to scale new heights. With encouraging community engagement and loyalty uppermost in mind, Intelligent Signals’ dedicated Discord group is an open forum for token discussions and all aspects of trading. </p>
+               <p className='text-xl text-gray-100'>Transparency: At the heart of Web3 are community, collaboration, and transparency. One of the core differences between Crypto and traditional finance is the availability of real-time open-source information. Intelligent Signals highly values integrity and openness, and it is this that guides our transparent information sharing.
+                Intelligent Signals will provide constant updates on social media, with all INSIG transactions available on the blockchain in real time.</p>
+               <p className='text-xl text-gray-100'>Risk-conscious: Every trade and market has risk-to-reward trade-offs related to risk profile, trading style, and psychology.
+                Understanding and managing trading risk is essential to the Intelligent Signals platform.</p>
+          </div>
+        </div>
+      </div>
+
+        <div className='py-4 bg-gray-100 min-h-screen w-full flex flex-col items-center '>
+        <h2 className='text-5xl pt-12 font-bold text-black'>Our Roadmap</h2>
+        </div>
+
+        <div className='py-4 bg-gray-100 min-h-screen w-full flex flex-col items-center '>
+        <h2 className='text-5xl pt-12 font-bold text-black'>Founding Partners</h2>
+        <h3 cl>We have put together a world class team of leadership , software engineers , AI experts , Trading professionals and financiers. </h3>
+        </div>
 
 
     </main>
