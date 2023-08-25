@@ -8,7 +8,7 @@ const Nav = () => {
     const openfun = ()=>{ setopennav(!opennav)}
 
     return (
-    <nav className='w-full fixed bg-gr opacity-90 p-3 flex  border-b border-gr2 '>
+    <nav className='w-full z-10 fixed bg-gr opacity-90 p-3 flex  border-b border-gr2 '>
         <div className='ml-2 mr-4'>
         <Link href="/" >
         <Image  src="/home-1.png" alt='home' width={115} height={50} />

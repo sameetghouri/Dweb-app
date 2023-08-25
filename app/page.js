@@ -5,6 +5,7 @@ import { FaWalking } from 'react-icons/fa'
 import { BiWallet } from 'react-icons/bi'
 import { BsCurrencyExchange } from 'react-icons/bs'
 import { FaRegLightbulb } from 'react-icons/fa'
+import { FaUserCheck } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -78,13 +79,13 @@ export default function Home() {
         </div>
         <div className='py-3 flex items-center gap-2'>
           <h4 className='text-white text-2xl'>In this video you will learn How this website works</h4>
-          <FaRegLightbulb className='w-8 h-8 mt-2 text-white animate-pulse'/>
+          <FaRegLightbulb className='w-8 h-8 mt-2 text-white animate-pulse' />
+        </div>
+        <div className='bg-[#e0e0e0] rounded  px-10 overflow-x-auto py-8 w-11/12 flex flex-col lg:flex-row items-center justify-around gap-4'>
+          <div className='w-1/2  flex justify-center'>
+            <Image src="/svg1.svg" alt='svg1' width={450} height={450} />
           </div>
-        <div className='bg-[#8a868e] rounded  px-4 overflow-x-auto py-8 w-11/12 flex flex-col lg:flex-row items-center justify-around gap-4'>
-          <div className='w-1/3 pl-2 lg:pl-4'>
-            <Image src="/svg1.svg" alt='svg1' width={500} height={500} />
-          </div>
-          <div className='w-2/3 flex flex-col items-center'>
+          <div className='w-1/2 flex flex-col items-center'>
             <iframe className='rounded-3xl' width="600" height="337" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
@@ -94,7 +95,7 @@ export default function Home() {
         <div className='py-14 px-4  w-full max-w-6xl flex flex-col lg:flex-row  items-center gap-y-8'>
           <div className=''>
             <h3 className='text-white font-semibold text-2xl'>Make your on demand app the next success story</h3>
-          </div> 
+          </div>
           <div className='lg:ml-auto'>
             <Link className='px-4 py-3 ml-auto font-semibold bg-gray-800 text-white shadow-lg rounded-xl  hover:bg-gray-100 hover:text-gr transition duration-300 ease-in' href='/'>Get in Touch</Link>
           </div>
@@ -115,10 +116,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='flex flex-col items-center px-4 bg-[url(/b2.jpg)] bg-cover rounded w-full  '>
+      <div className='flex flex-col mb-24 items-center px-4 bg-[url(/b2.jpg)] bg-cover rounded w-full  '>
         <h1 className='pt-20  text-[44px] text-gray-100 font-semibold'>Why use Intelligent <span className='text-blue-400 animate-pulse  '>Signals?</span></h1>
         <h4 className='pt-4  text-gray-300 '>Trading in Crypto is not easy, and most traders lose money! Online educational resource Tradeciety (www.tradeciety.com) </h4>
-        <div className='py-10 px-4 w-full max-w-4xl flex flex-col md:flex-row md:items-start md:justify-center items-center gap-x-12 gap-y-7'>
+        <div className='p-10 w-full max-w-4xl flex flex-col md:flex-row md:items-start md:justify-center items-center gap-x-12 gap-y-7'>
           <div className='flex flex-col w-3/4 md:w-1/3 gap-6'>
             <BiWallet className="w-14 h-14 cursor-pointer text-blue-400 " />
             <h3 className='text-gray-100 text-2xl'>95 % of traders in Crypto lose money</h3>
@@ -132,12 +133,39 @@ export default function Home() {
             <h4 className='text-gray-100 text-2xl font-semibold'>Traders with a ten-year track record of losing continue to trade!</h4>
           </div>
         </div>
+
+        <div className='flex flex-col w-4/5 items-center  relative -bottom-24'>
+          <h2 className='text-white text-4xl font-semibold py-4 '>Our Goals</h2>
+          <div className='bg-gray-100 p-14  shadow-lg shadow-sky-400  rounded-xl flex flex-col md:flex-row md:items-start md:justify-center items-center gap-x-12 gap-y-7'>
+            <div className='flex w-3/4 md:w-1/3 gap-6'>
+              <FaUserCheck className="w-14 h-14 cursor-pointer text-blue-400 " />
+              <div className='flex flex-col'>
+                <h3 className='text-black text-5xl font-semibold'>25K</h3>
+                <h4 className='text-gray-600'>Active Subscriber in 1 Year</h4>
+              </div>
+            </div>
+            <div className='flex  w-3/4 md:w-1/3 gap-6'>
+              <FaUserCheck className="w-14 h-14 cursor-pointer text-blue-400 " />
+              <div className='flex flex-col'>
+                <h3 className='text-black text-5xl font-semibold'>100K</h3>
+                <h4 className='text-gray-600'>Active Subscriber in 3 Year</h4>
+              </div>
+            </div>
+            <div className='flex  w-3/4 md:w-1/3 gap-6'>
+              <FaUserCheck className="w-14 h-14 cursor-pointer text-blue-400 " />
+              <div className='flex flex-col '>
+                <h3 className='text-black text-5xl font-semibold'>500K</h3>
+                <h4 className='text-gray-600'>Active Subscriber in 5 Year</h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className='flex flex-col  justify-center items-center mt-10 lg:flex-row  w-full  max-w-6xl min-h-screen'>
-        <div className=' w-3/4 py-8 lg:w-1/2  lg:pl-9   flex flex-col gap-4 justify-center' >
-          <h1 className='text-5xl text-white'> <span className='text-green-400 animate-pulse'>Staking</span></h1>
-          <h2 className='text-3xl text-gr3'>Build the Future with Intell Signals</h2>
+      <div className='flex flex-col  justify-center items-center mt-20 lg:flex-row  w-full  max-w-6xl min-h-screen'>
+        <div className=' w-3/4 pt-7  lg:w-1/2  lg:pl-10   flex flex-col gap-4 justify-center' >
+          <h1 className='text-7xl text-white'> <span className='text-green-400 animate-pulse'>Staking</span></h1>
+          <h2 className='text-4xl text-gr3'>Build the Future with Intell Signals</h2>
           <p className='text-gray-300 leading-7 '>
             We want to introduce the staking feature so people can earn more with their tokens. Staking is a way of supporting the security and stability of the network while also earning passive income.
             Staking in the context of cryptocurrencies refers to holding and locking up a certain amount of tokens in a cryptocurrency network to participate in the network's consensus mechanism and earn rewards.
@@ -146,13 +174,13 @@ export default function Home() {
           </p>
           <button className='mt-4 px-4 py-2 mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Learn More</button>
         </div>
-        <div className='w-2/3 flex justify-center lg:pl-6 lg:w-1/2 py-8  '>
+        <div className='w-2/3 flex justify-end lg:pl-6 lg:w-1/2 py-8  '>
           <Image src="/ab-img.png" alt='a' width={500} height={500} />
         </div>
 
       </div>
-      <div className='py-10 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
 
+      <div className='py-10 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
         <div className='flex flex-col bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
           <h3 className='text-gray-100 text-2xl font-semibold'>BYE BYE GPU MINING</h3>
           <p className='text-gray-300'>Mining Helium tokens with Hotspots is done via radio technology, not expensive or wasteful GPUs.</p>
@@ -166,6 +194,45 @@ export default function Home() {
           <p className='text-gray-300'>Hotspots are built by a variety of vendors to suit your needs.</p>
         </div>
       </div>
+
+      <div className='mt-10 bg-[url(/b3.jpg)] min-h-screen bg-center w-full flex justify-center '>
+        <div className='flex flex-col md:flex-row w-full max-w-6xl md:items-stretch items-center px-4 py-8'>
+          <div className='flex md:w-1/2 w-4/5 px-6 flex-col items-center  gap-8'>
+            <h2 className='text-5xl font-semi-bold text-white'>Tokenomics</h2>
+            <div className='flex flex-col items-center '>
+              <h3 className='text-3xl font-semibold text-white'>Token Name</h3>
+              <p className='text-2xl text-white'>Intelligent Signals</p>
+            </div>
+            <div className='flex flex-col items-center'>
+              <h3 className='text-3xl font-semibold text-white'>Token Symbol</h3>
+              <p className='text-2xl text-white'>Insig</p>
+            </div>
+            <div className='flex flex-col items-center'>
+              <h3 className='text-3xl font-semibold text-white'>Total Supply</h3>
+              <p className='text-2xl text-white'>300M</p>
+            </div>
+            <div className='flex flex-col items-center'>
+              <h3 className='text-3xl font-semibold text-white'>Decimal</h3>
+              <p className='text-2xl text-white'>Intelligent Signals</p>
+            </div>
+            <div className='flex flex-col items-center'>
+              <h3 className='text-3xl font-semibold text-white'>Blockchain</h3>
+              <p className='text-2xl text-white'>BEP20</p>
+            </div>
+          </div>
+          <div className='flex md:w-1/2 w-4/5 px-6 mt-3 md:-mt-0  flex-col items-center  gap-8'>
+            <h2 className='text-5xl font-semi-bold text-white'>Token Distribution</h2>
+            <div className=''><Image src="/circle.png" alt='a' width={300} height={300} /></div>
+            <div className='flex flex-col items-center'>
+              <h3 className='text-3xl font-semibold text-white'>Token Utility</h3>
+              <p className='text-2xl text-white'>INSIG tokens are required to pay for Intelligent Signals subscriptions on its proprietary trading platform.
+                INSIG tokens also will be used for staking </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
     </main>
   )

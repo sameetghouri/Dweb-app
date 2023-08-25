@@ -2,7 +2,7 @@ import Link  from 'next/link';
 import Image  from 'next/image';
 import {SiMinutemailer} from 'react-icons/si';
 import {FiMail} from 'react-icons/fi';
-import {BsPersonCircle} from 'react-icons/bs';
+import {BiUser} from 'react-icons/bi';
 import {MdSubject} from 'react-icons/md';
 import {AiOutlineMessage} from 'react-icons/ai';
 
@@ -22,11 +22,11 @@ const Footer = () => {
                 intellsignals.entertainment@gmail.com</Link>
             </div>
             </div>
-            <form className='flex bg-gr2 flex-col hover:scale-105 transition duration-300 rounded-xl w-1/2 gap-6 py-3 px-4 overflow-scroll'>
+            <form className='flex bg-gr2 flex-col hover:scale-105 transition duration-300 rounded-xl w-1/2 gap-6 py-3 px-4'>
                 <h2 className=' text-gray-300 text-2xl font-semibold '>Lets Get in touch with us</h2>
                 <div className='flex flex-col gap-y-5'>
                 <div className='flex relative items-center '>
-                <BsPersonCircle className='absolute left-1 w-9 h-9 p-1 text-gray-600' />
+                <BiUser className='absolute left-1 w-9 h-9 p-1 text-gray-600' />
                 <input className='pl-12 rounded bg-gray-200 shadow-lg w-full  p-2 placeholder:text-gr1 ' type='text' placeholder='Full name'/>
                 </div>
                 <div className='flex relative items-center '>
@@ -92,8 +92,21 @@ const Footer = () => {
 
         </div>
         </div>
-        <div className="flex w-full  pt-8  pb-3 bg-gr2   justify-center items-center ">
-          
+        <div className="flex flex-col items-center w-full  pt-8  pb-3 bg-gr2 gap-y-4 ">
+          <div className='flex items-center gap-4'>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <Image  src="/wa.png" alt='home' width={24} height={24} />
+            </div>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <Image  src="/li.png" alt='home' width={24} height={24} />
+            </div>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <Image  src="/gm.png" alt='home' width={24} height={24} />
+            </div>
+            <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-200'>
+            <Image  src="/tp.png" alt='home' width={24} height={24} />
+            </div>
+          </div>
         <div><p className='text-white'>@copyright2023 IntellSignals.com</p></div>
         </div>
     </footer> 
