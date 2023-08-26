@@ -86,7 +86,7 @@ export default function Home() {
             <Image src="/svg1.svg" alt='svg1' width={450} height={450} />
           </div>
           <div className='lg:w-1/2 w-3/4 flex flex-col items-center'>
-          <iframe className='rounded-3xl' width="600" height="337" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className='rounded-3xl' width="600" height="337" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -267,48 +267,152 @@ export default function Home() {
           </div>
           <div className='flex lg:w-1/2 w-4/5 p-2 mt-3 lg:-mt-0  flex-col rounded-xl bg-black bg-opacity-40 hover:bg-opacity-50  gap-8'>
             <h2 className='text-5xl font-semi-bold text-white'>Intelligent Signal Ecosystem</h2>
-              <p className='text-xl text-gray-100'>Community-Centric: Intelligent Signals believes the community is the key to success, especially in Web3.
-               The happier and more successful a project community is, the more likely the members are to spread the word and help Intelligent Signals to scale new heights. With encouraging community engagement and loyalty uppermost in mind, Intelligent Signals’ dedicated Discord group is an open forum for token discussions and all aspects of trading. </p>
-               <p className='text-xl text-gray-100'>Transparency: At the heart of Web3 are community, collaboration, and transparency. One of the core differences between Crypto and traditional finance is the availability of real-time open-source information. Intelligent Signals highly values integrity and openness, and it is this that guides our transparent information sharing.
-                Intelligent Signals will provide constant updates on social media, with all INSIG transactions available on the blockchain in real time.</p>
-               <p className='text-xl text-gray-100'>Risk-conscious: Every trade and market has risk-to-reward trade-offs related to risk profile, trading style, and psychology.
-                Understanding and managing trading risk is essential to the Intelligent Signals platform.</p>
+            <p className='text-xl text-gray-100'>Community-Centric: Intelligent Signals believes the community is the key to success, especially in Web3.
+              The happier and more successful a project community is, the more likely the members are to spread the word and help Intelligent Signals to scale new heights. With encouraging community engagement and loyalty uppermost in mind, Intelligent Signals’ dedicated Discord group is an open forum for token discussions and all aspects of trading. </p>
+            <p className='text-xl text-gray-100'>Transparency: At the heart of Web3 are community, collaboration, and transparency. One of the core differences between Crypto and traditional finance is the availability of real-time open-source information. Intelligent Signals highly values integrity and openness, and it is this that guides our transparent information sharing.
+              Intelligent Signals will provide constant updates on social media, with all INSIG transactions available on the blockchain in real time.</p>
+            <p className='text-xl text-gray-100'>Risk-conscious: Every trade and market has risk-to-reward trade-offs related to risk profile, trading style, and psychology.
+              Understanding and managing trading risk is essential to the Intelligent Signals platform.</p>
           </div>
         </div>
       </div>
 
-        <div className='py-4 bg-gray-100 min-h-screen w-full flex flex-col items-center '>
-        <h2 className='text-5xl pt-12 font-bold text-black'>Our Roadmap</h2>
+      <div className='py-10 bg-gray-100  w-full flex flex-col items-center gap-10 '>
+        <h2 className='text-5xl py-8 font-bold text-black'>Our Roadmap</h2>
+        <div>
+          <ol className="relative text-gray-500 border-l border-gray-800 ">
+            <li className="mb-10 ml-6">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -left-4 ring-4 ring-green-500  ">
+                <svg className="w-3.5 h-3.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
+                </svg>
+              </span>
+              <h3 className="font-semibold text-black">April – June</h3>
+              <p className="text-gray-600">Invitation Founders price 0.025p</p>
+            </li>
+            <li className="mb-10 ml-6">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -left-4 ring-4 ring-green-500 ">
+                <svg className="w-3.5 h-3.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                  <path d="M18 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM6.5 3a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3.014 13.021l.157-.625A3.427 3.427 0 0 1 6.5 9.571a3.426 3.426 0 0 1 3.322 2.805l.159.622-6.967.023ZM16 12h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Z" />
+                </svg>
+              </span>
+              <h3 className="font-semibold text-black">June 2023</h3>
+              <p className="text-gray-600">30 days at 0.10p price</p>
+            </li>
+            <li className="mb-10 ml-6">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -left-4 ring-4 ring-green-500 ">
+                <svg className="w-3.5 h-3.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                  <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z" />
+                </svg>
+              </span>
+              <h3 className="font-semibold text-black">July 2023</h3>
+              <p className="text-gray-600">Step details here</p>
+            </li>
+            <li className="ml-6">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -left-4 ring-4 ring-green-500 ">
+                <svg className="w-3.5 h-3.5 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                  <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2ZM7 2h4v3H7V2Zm5.7 8.289-3.975 3.857a1 1 0 0 1-1.393 0L5.3 12.182a1.002 1.002 0 1 1 1.4-1.436l1.328 1.289 3.28-3.181a1 1 0 1 1 1.392 1.435Z" />
+                </svg>
+              </span>
+              <h3 className="font-semibold text-black">August 2023</h3>
+              <p className="text-gray-600"> 30 days 0.15p price</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div className=' flex flex-col bg-gradient-to-b from-gray-300 to-gray-400 items-center py-20  w-full '>
+        <h2 className='text-5xl py-4 font-bold text-black'>Pricing</h2>
+        <div className='w-full  py-4 max-w-6xl flex flex-col items-center'>
+          <h2 className='text-3xl font-semibold text-black'>Regular Rates:</h2>
+          <div className='flex py-4 flex-col items-center w-full lg:flex-row lg:items-stretch lg:justify-center gap-8'>
+            <div className='relative flex flex-col items-center bg-gradient-to-b from-[#2c4e89] to-[#102b59]  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+              <h3 className='text-white mt-2 py-4 text-4xl font-bold '>$0 Free:</h3>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>1 Free Signal per day</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Perfect for beginners and those looking to dip their toes into crypto trading.</h4>
+              <button className='lg:absolute lg:bottom-0 w-full bg-gradient-to-b px-2 py-3 from-sky-400 to-sky-600 rounded-b-xl text-white font-semibold'>Buy Now</button>
+            </div>
+            <div className='flex flex-col items-center bg-gradient-to-b from-[#2c4e89] to-[#102b59]  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+              <h3 className='text-white mt-2 py-4 text-4xl font-bold '>$49/Month Premium:</h3>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'> 5 Signals per day</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Access to Premium signals</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Opportunity to diversify your portfolio</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Ideal for traders seeking more signals and a competitive edge.</h4>
+              <button className='w-full bg-gradient-to-b px-2 py-3 from-sky-400 to-sky-600 rounded-b-xl text-white font-semibold'>Buy Now</button>
+            </div>
+            <div className='relative flex flex-col items-center bg-gradient-to-b from-[#2c4e89] to-[#102b59]  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+              <h3 className='text-white mt-2 py-4 text-4xl font-bold '>$99/Month VIP:</h3>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Unlimited Signals</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>One-to-One Coaching (up to 1 hour)</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'> Custom Crypto Research Reports on Demand</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>For serious traders wanting maximum insights, personalized guidance, and research expertise.</h4>
+              <button className='lg:absolute lg:bottom-0 w-full bg-gradient-to-b px-2 py-3 from-sky-400 to-sky-600 rounded-b-xl text-white font-semibold'>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div className='w-full  py-4 max-w-6xl flex flex-col items-center'>
+          <h2 className='text-3xl font-semibold text-black'>Discounted Rates (3 Months Subscription):</h2>
+          <div className='flex py-4 w-full flex-col items-center  lg:flex-row lg:items-stretch lg:justify-center gap-8'>
+          <div className='flex flex-col items-center bg-gradient-to-b from-[#2c4e89] to-[#102b59]  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+              <h3 className='text-white mt-2 py-4 text-4xl font-bold '>$129/3 Months Premium:</h3>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>All benefits of Monthly Premium package</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Discounted rate for 3 months</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>A cost-effective choice for extended premium access and savings.</h4>
+              <button className='w-full bg-gradient-to-b px-2 py-3 from-sky-400 to-sky-600 rounded-b-xl text-white font-semibold'>Buy Now</button>
+            </div>
+            <div className='relative flex flex-col items-center bg-gradient-to-b from-[#2c4e89] to-[#102b59]  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+              <h3 className='text-white mt-2 py-4 text-4xl font-bold '>$249/3 Months VIP:</h3>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'> All benefits of Monthly VIP package</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Discounted rate for 3 months</h4>
+              <h4 className='text-white mt-2 p-2 border-b border-gray-500 w-full text-center'>Premium features at a reduced rate for traders committed to growth.</h4>
+              <button className='lg:absolute lg:bottom-0 w-full bg-gradient-to-b px-2  py-3 from-sky-400 to-sky-600 rounded-b-xl text-white font-semibold'>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='py-24  bg-gradient-to-b from-green-300 to-green-600 w-full flex flex-col items-center gap-10 '>
+        <div className='px-4 w-11/12 flex flex-col items-center gap-5'>
+          <h2 className='text-5xl font-bold text-black'>Founding Partners</h2>
+          <h3 className='text-xl text-black'>We have put together a world className team of leadership , software engineers , AI experts , Trading professionals and financiers.</h3>
+        </div>
+        <div className='grid grid-cols-3 w-2/3 lg:grid-cols-4 xl:grid-cols-5 gap-10'>
+          <div className='col-span-1'><Image src={'/agulus.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/airly.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/nowi.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/digitalmatter.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/lonestar.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/open.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/mydevices.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/careband.svg'} alt='a' width={300} height={300} />   </div>
+          <div className='col-span-1'><Image src={'/mimiq.svg'} alt='a' width={300} height={300} />   </div>
         </div>
 
-        <div className='py-4 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-4 '>
-        <h2 className='text-5xl pt-12 font-bold text-black'>Founding Partners</h2>
-        <h3 className='text-3xl text-gray-700'>We have put together a world class team of leadership , software engineers , AI experts , Trading professionals and financiers.</h3>
-        </div>
+      </div>
 
-        <div className='relative py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
+      <div className='relative py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
         <h2 className='text-5xl py-12 px-4 font-bold text-black'>Frequently Asked Questions</h2>
         <div className='bg-white px-8 py-6 border-b-4 border-sk rounded w-4/5'>
-        <h3 className='text-2xl pb-6 text-black'>What are Intelligent Signals?</h3>
-        <p className='text-lg text-gray-600'>Answer: Intelligent Signals is an ecosystem that utilizes Artificial Intelligence (AI) and Visual Signalling Technology (VST) to analyze crypto charts and identify optimal market entry and exit points for trading cryptocurrencies. It includes the Intelligent Signals Token (INSIG) as the exclusive means of subscribing to the platform. The INSIG token also incorporates a crypto trading bot for automated trading.</p>
+          <h3 className='text-2xl pb-6 text-black'>What are Intelligent Signals?</h3>
+          <p className='text-lg text-gray-600'>Answer: Intelligent Signals is an ecosystem that utilizes Artificial Intelligence (AI) and Visual Signalling Technology (VST) to analyze crypto charts and identify optimal market entry and exit points for trading cryptocurrencies. It includes the Intelligent Signals Token (INSIG) as the exclusive means of subscribing to the platform. The INSIG token also incorporates a crypto trading bot for automated trading.</p>
         </div>
         <div className='bg-white px-8 py-6 border-b-4 border-sk rounded w-4/5'>
-        <h3 className='text-2xl pb-6 text-black'>Why should i use Intelligent Signals?</h3>
-        <p className='text-lg text-gray-600'>Answer: Intelligent Signals is designed to improve traders' performance and consistency in decision-making. It offers an automated and intelligent approach to crypto selection and trading, allowing for 24/7 monitoring and execution of trades without manual intervention. With a 70% success rate, it provides traders with a more reliable and hands-free trading experience.</p>
+          <h3 className='text-2xl pb-6 text-black'>Why should i use Intelligent Signals?</h3>
+          <p className='text-lg text-gray-600'>Answer: Intelligent Signals is designed to improve traders' performance and consistency in decision-making. It offers an automated and intelligent approach to crypto selection and trading, allowing for 24/7 monitoring and execution of trades without manual intervention. With a 70% success rate, it provides traders with a more reliable and hands-free trading experience.</p>
         </div>
         <div className='bg-white px-8 py-6 border-b-4 border-sk rounded w-4/5'>
-        <h3 className='text-2xl pb-6 text-black'>How does Intelligent Signals utilize pattren recognition?</h3>
-        <p className='text-lg text-gray-600'>Answer: Intelligent Signals leverages AI and Machine Learning to analyze over 23,000 crypto charts and identify chart patterns. These patterns are ranked based on importance, providing traders with a competitive advantage. The Visual Signalling Technology (VST) developed by Intelligent Signals uses a color scheme (red, amber, and green) to simplify the identification and interpretation of patterns.</p>
+          <h3 className='text-2xl pb-6 text-black'>How does Intelligent Signals utilize pattren recognition?</h3>
+          <p className='text-lg text-gray-600'>Answer: Intelligent Signals leverages AI and Machine Learning to analyze over 23,000 crypto charts and identify chart patterns. These patterns are ranked based on importance, providing traders with a competitive advantage. The Visual Signalling Technology (VST) developed by Intelligent Signals uses a color scheme (red, amber, and green) to simplify the identification and interpretation of patterns.</p>
         </div>
         <div className='bg-white px-8 py-6 border-b-4 border-sk rounded w-4/5'>
-        <h3 className='text-2xl pb-6 text-black'>What features does Intelligent Signals offers?</h3>
-        <p className='text-lg text-gray-600'>Answer: Intelligent Signals offers several essential features, including a trading bot for automated trading based on market signals and user-defined parameters. It also provides a strategy builder and backtester for traders to create and test their trading strategies. Additionally, it incorporates a risk profiler, staking opportunities, new listing alerts, and a community-centric ecosystem.</p>
+          <h3 className='text-2xl pb-6 text-black'>What features does Intelligent Signals offers?</h3>
+          <p className='text-lg text-gray-600'>Answer: Intelligent Signals offers several essential features, including a trading bot for automated trading based on market signals and user-defined parameters. It also provides a strategy builder and backtester for traders to create and test their trading strategies. Additionally, it incorporates a risk profiler, staking opportunities, new listing alerts, and a community-centric ecosystem.</p>
         </div>
         <div className='bg-white px-8 py-6 border-b-4 border-sk rounded w-4/5'>
-        <h3 className='text-2xl pb-6 text-black'>How does Intelligent Signals contribute to cryptocurrency market?</h3>
-        <p className='text-lg text-gray-600'>Answer: Intelligent Signals contributes to the cryptocurrency market by providing accurate trading signals based on technical analysis and AI. Its pattern recognition technology, GANN analytics, and cognitive recognition enable traders to forecast market movements and make informed trading decisions. The platform aims to improve risk management, offer timely market insights, and create a transparent and engaged community within the crypto space.</p>
+          <h3 className='text-2xl pb-6 text-black'>How does Intelligent Signals contribute to cryptocurrency market?</h3>
+          <p className='text-lg text-gray-600'>Answer: Intelligent Signals contributes to the cryptocurrency market by providing accurate trading signals based on technical analysis and AI. Its pattern recognition technology, GANN analytics, and cognitive recognition enable traders to forecast market movements and make informed trading decisions. The platform aims to improve risk management, offer timely market insights, and create a transparent and engaged community within the crypto space.</p>
         </div>
-        </div>
+      </div>
 
     </main>
   )
