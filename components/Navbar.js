@@ -19,7 +19,7 @@ const Nav = () => {
         <Link href="/" className= "hover:text-sk border-b border-gr hover:border-sk  transition duration-300 ease-in-out text-white font-semibold">Home</Link>
         <Link href="/" className="hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold">About Us</Link>
         <Link href="/" className="hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold">Sevices</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">How It Works</Link>
+        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold " style={{fontSize: '1vw'}}>How It Works</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Blog</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Special Offers</Link>
         <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold">Contact Us</Link>
