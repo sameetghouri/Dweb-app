@@ -10,8 +10,8 @@ const Footer = () => {
     return ( 
     <footer className="bg-black pt-6 w-full flex flex-col items-center">
         <div className='bg-black px-4 w-full max-w-5xl flex flex-col items-center'>
-        <div className='py-10 border-b  flex justify-center lg:justify-end w-full border-gr1'>
-            <div className='mr-auto pr-4 flex flex-col gap-4'>
+        <div className='py-10 border-b  flex flex-col items-center lg:flex-row lg:justify-end w-full border-gr1 gap-y-10'>
+            <div className='lg:mr-auto pr-4 flex flex-col gap-4'>
             <h2 className='text-gray-300 text-[35px] font-semibold '>Get Ecosystem updates in your inbox</h2>
             <h3 className='text-gray-300 text-3xl font-semibold'>Quick Support</h3>
             <p className='text-gray-400 text-lg'>We're here for you, waiting to answer your queries, our team is happy to help you.</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                 intellsignals.entertainment@gmail.com</Link>
             </div>
             </div>
-            <form className='flex bg-gr2 flex-col hover:scale-105 transition duration-300 rounded-xl w-1/2 gap-6 py-3 px-4'>
+            <form className='flex bg-gr2 flex-col hover:scale-105 transition duration-300 rounded-xl w-11/12 lg:w-1/2 gap-6 py-3 px-4'>
                 <h2 className=' text-gray-300 text-2xl font-semibold '>Lets Get in touch with us</h2>
                 <div className='flex flex-col gap-y-5'>
                 <div className='flex relative items-center '>
@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
         <div className='py-10 pl-2 w-full text-white flex items-center'>
         <Image  src="/home-1.png" alt='home' width={130} height={65} />
-        <button type='submit' className='text-white ml-auto mr-28 px-3 py-2 rounded-lg bg-sk hover:bg-sk1 transition duration-200'>Subscribe Now</button>
+        <button type='submit' className='text-white ml-auto lg:mr-28  px-3 py-2 rounded-lg bg-sk hover:bg-sk1 transition duration-200'>Subscribe Now</button>
 
 
 
