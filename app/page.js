@@ -327,6 +327,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Plans Sections */}
       <div className=' flex flex-col bg-gradient-to-b from-gray-300 to-gray-400 items-center py-20  w-full '>
         <h2 className='text-5xl py-4 font-bold text-black'>Pricing</h2>
         <h3 className='text-2xl py-1 text-gray-700'>You can start with a free trial Or Buy the VIP Pakage</h3>
