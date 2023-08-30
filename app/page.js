@@ -9,7 +9,6 @@ import { FaRegLightbulb } from 'react-icons/fa'
 import { FaUsers} from 'react-icons/fa'
 import { BiSolidChevronDown } from 'react-icons/bi'
 import {BsFillPersonFill,BsFillPeopleFill} from 'react-icons/bs'
-import Roadmap from '@/sections/Roadmap'
 
 
 export default function Home() {
@@ -21,12 +20,14 @@ export default function Home() {
             <h1 className=''> Artificial Intelligence drive token  used to access AI technology </h1>
             <MdArrowOutward className="w-8 h-8 py-1 cursor-pointer ml-auto  hover:text-blue-300" />
           </div>
-          <h1 className='text-white text-6xl font-semibold'>INSIGNAL TOKEN.</h1>
+          <h1 className=' text-6xl font-semibold'>
+            <span className='text-orange-400'>INSIGNAL </span>
+            <span className='text-red-500'>TOKEN.</span> </h1>
           <p className='text-3xl font-semibold text-gr3 '>Start Trading Now</p>
           <p className='text-xl text-gray-300'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
           <button className='mt-4 w-1/2 px-4 py-2 mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Start Now</button>
         </div>
-        <div className='w-3/4 lg:w-1/2 pt-8 pr-2 '>
+        <div className='relative w-3/4 lg:w-1/2 pt-8 pr-2 '>
           <Image src="/base.png" alt='a' width={900} height={900} />
         </div>
       </div>
@@ -77,24 +78,31 @@ export default function Home() {
         <Image className='pt-4' src="/mainimg.png" alt='mainimg' width={1000} height={500} />
       </div>
 
+    {/* Video Section */}
       <div className='flex flex-col pt-16 items-center w-full min-h-screen'>
         <div className='flex justify-center pb-6'>
           <button className='py-2 px-5 text-white rounded-l  bg-gradient-to-b  from-[#679df5] to-[#0061ff] hover:scale-105 transition duration-300 '>Buy Insign token</button>
           <button className='py-2 px-5 text-white rounded-r  bg-gradient-to-b from-[#ff88a5] to-[#d82955]   hover:scale-105 transition duration-300'>White Paper</button>
         </div>
-        <div className='py-3 flex items-center gap-2'>
-          <h4 className='text-white text-2xl'>In this video you will learn How this website works</h4>
-          <FaRegLightbulb className='w-8 h-8 text-yellow-500 animate-pulse' />
+       
+        <div className='bg-[#686767] rounded-3xl  px-10 overflow-x-auto py-8 w-2/3 flex flex-col  items-center '>
+           <div className='pb-6 flex flex-col  gap-2'>
+          <h4 className='text-white text-lg md:text-3xl'>In this video you will learn </h4>
+          <div className='flex'>
+          <h4 className='text-white text-lg md:text-3xl'>How this website works </h4>
+          <FaRegLightbulb className='w-6 h-6 md:w-8 md:h-8 text-white hover:text-yellow-500 hover:animate-pulse' />
+          </div>
+               
         </div>
-        <div className='bg-[#686767] rounded-3xl  px-10 overflow-x-auto py-8 w-2/3 flex flex-col  items-center justify-around '>
-          <iframe className='rounded-3xl' width="600" height="337" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe className='rounded-3xl' width="650" height="366" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
 
       <div className=' bg-gradient-to-b from-purple-400 to-purple-700 mt-6 w-full flex justify-center'>
-        <div className='py-14 px-4  w-full max-w-6xl flex flex-col lg:flex-row  items-center gap-y-8'>
-          <div className=''>
-            <h3 className='text-white font-semibold text-2xl'>Make your on demand app the next success story</h3>
+        <div className='py-12 px-4  w-full max-w-6xl flex flex-col lg:flex-row  items-center gap-y-8'>
+          <div className='flex flex-col'>
+            <h3 className='text-white font-semibold text-2xl'>Make your on demand app</h3>
+            <h3 className='text-white font-semibold text-2xl'>The next success story</h3>
           </div>
           <div className='lg:ml-auto'>
 
@@ -179,24 +187,24 @@ export default function Home() {
         <div className='w-2/3 flex justify-end lg:pl-6 lg:w-1/2 py-8  '>
           <Image src="/ab-img.png" alt='a' width={500} height={500} />
         </div>
-
       </div>
 
       <div className='py-10 z-1 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
-        <div className='flex flex-col bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+        <div className='flex flex-col shadow-lg shadow-gray-100  bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
           <h3 className='text-gray-100 text-2xl font-semibold'>BYE BYE GPU MINING</h3>
           <p className='text-gray-300'>Mining Helium tokens with Hotspots is done via radio technology, not expensive or wasteful GPUs.</p>
         </div>
-        <div className=' flex flex-col bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+        <div className=' flex flex-col shadow-lg shadow-gray-100  bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
           <h3 className='text-gray-100 text-2xl font-semibold'>Build Networks</h3>
           <p className='text-gray-300'>Hotspots work together to form a new global wireless network and undertake 'Proof-of-Coverage'.</p>
         </div>
-        <div className='flex flex-col bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+        <div className='flex flex-col shadow-lg shadow-gray-100  bg-gr1 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
           <h3 className='text-gray-100 text-2xl font-semibold'>Choose your Hardware</h3>
           <p className='text-gray-300'>Hotspots are built by a variety of vendors to suit your needs.</p>
         </div>
       </div>
 
+      {/* Tokennomics Section */}
       <div className='mt-10 bg-[url(/b3.jpg)] min-h-screen bg-cover w-full flex justify-center '>
         <div className='flex flex-col md:flex-row w-full max-w-6xl md:items-stretch items-center px-4 py-8'>
           <div className='flex md:w-1/2 w-4/5 px-6 flex-col items-center  gap-8'>
@@ -234,6 +242,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Introduction to AI and ML with Application and Future */}
       <div className='  bg-white min-h-screen w-full flex flex-col items-center '>
         <div className=' bg-[url(/b4.jpg)] bg-contain bg-no-repeat h-screen w-full '>
         </div>
@@ -244,24 +253,26 @@ export default function Home() {
             Unlike traditional programming, ML algorithms enable computers to learn and improve their performance on a specific task by processing and making predictions or decisions based on that data. The more data the algorithm is trained on, the more accurate its predictions become. </p>
           <p className='text-gray-700 text-xl pt-2'>AI and ML have already significantly impacted many industries by enabling machines to perform tasks that were once considered exclusive to humans, such as decision-making, problem-solving, and creativity. ML is used in various applications, including image and speech recognition, natural language processing, fraud detection, and autonomous driving.
             However, the rapid growth of AI and ML also raises important ethical, social, and economic questions that must be addressed.</p>
-          <button className='mt-4 px-6 py-4 font-semibold bg-gre text-white rounded-lg hover:scale-105 hover:bg-sk transition duration-200 ease-in '>Use The Network</button>
+          <button className='mt-4 px-6 py-4 font-semibold bg-gre shadow-lg text-white rounded-lg hover:scale-105 hover:bg-sk transition duration-200 ease-in '>Use The Network</button>
         </div>
+
         <div className='pb-4 z-1 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
-          <div className='flex flex-col bg-gray-200 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+          <div className='flex flex-col bg-gradient-to-b from-green-200 to-green-300 shadow p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
             <h3 className='text-gray-900 text-xl font-semibold'>AN OPEN ALTERNATIVE</h3>
             <p className='text-gray-700'>The People's Network is built on Open Source technology and governed by its worldwide community with stewardship from the Helium Foundation.</p>
           </div>
-          <div className=' flex flex-col bg-gray-200 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+          <div className=' flex flex-col  bg-gradient-to-b from-blue-200 to-blue-300 shadow p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
             <h3 className='text-gray-900 text-xl font-semibold'>SCALABLE & AFFORDABLE</h3>
             <p className='text-gray-700'>Say goodbye to expensive cell contracts. On Helium a sensor can cost cents to run a year.</p>
           </div>
-          <div className='flex flex-col bg-gray-200 p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
+          <div className='flex flex-col bg-gradient-to-b from-purple-200 to-purple-300 shadow p-8 rounded-lg w-3/4 md:w-1/3 gap-6 hover:scale-105 transition duration-200 ease-in'>
             <h3 className='text-gray-900 text-xl font-semibold'>LORAWAN-COMPATIBLE</h3>
             <p className='text-gray-700'>Utilize thousands of existing sensors, chipsets and MCUs for streamlined development.</p>
           </div>
         </div>
       </div>
 
+      {/* Intelligent Signal Ecosystem */}
       <div className='bg-[url(/b5.jpg)] min-h-screen bg-cover w-full flex justify-center '>
         <div className='flex flex-col lg:flex-row w-full max-w-7xl lg:items-stretch items-center py-8'>
           <div className='flex lg:w-1/2 w-4/5 p-2 flex-col items-center justify-center'>
@@ -279,6 +290,7 @@ export default function Home() {
         </div>
       </div>
 
+    {/* RoadMap */}
       <div className='py-10 bg-gray-100  w-full flex flex-col items-center gap-10 '>
         <h2 className='text-5xl py-8 font-bold text-black'>Our Roadmap</h2>
         <div className='grid grid-cols-3'>
@@ -322,14 +334,13 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          <div className='col-span-2 pl-4'>
-            <Roadmap />
-          </div>
+          
         </div>
       </div>
 
+
       {/* Plans Sections */}
-      <div className=' flex flex-col bg-gradient-to-b from-gray-200 to-gray-300 items-center py-8  w-full '>
+      <div className=' flex flex-col bg-gray-200 items-center py-8  w-full '>
         <h2 className='text-5xl py-4 font-bold text-black'>Pricing</h2>
         <h3 className='text-xl pb-1 text-gray-700'>You can start with a free trial Or Buy the VIP Pakage</h3>
         <div className='w-full  py-6 max-w-6xl flex flex-col items-center'>
@@ -497,7 +508,7 @@ export default function Home() {
 
 
       {/* Founding Partners Section*/}
-      <div className='py-24  bg-gradient-to-b from-gray-200 to-gray-400 w-full flex flex-col items-center gap-10 '>
+      <div className='py-24  bg-white w-full flex flex-col items-center gap-10 '>
         <div className='px-4 w-11/12 flex flex-col items-center gap-5'>
           <h2 className='text-5xl font-bold text-black'>Founding Partners</h2>
           <h3 className='text-xl text-black'>We have put together a world className team of leadership , software engineers , AI experts , Trading professionals and financiers.</h3>
@@ -515,128 +526,93 @@ export default function Home() {
         </div>
       </div>
 
+
       {/* FAQ Section*/}
       <div className='relative py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
         <div>
           <div className='relative py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
             <h2 className='text-5xl py-12 px-4 font-bold text-black'>Frequently Asked  <span className='text-green-500'>Questions</span> </h2>
-            {/* FAQ Item 1 */}
-            <div className='bg-white w-4/5 relative shadow-xl hover:shadow-2xl hover:scale-105 transition duration-300 overflow-hidden'>
-              <div className='flex items-start px-8 py-4 border-l-4 border-green-400  rounded bg-white  hover:text-black transition duration-200'>
-                <div className='text-3xl text-black'>
-                  {/* Left Icon */}
-                  <i className='fas fa-chevron-left pr-2'></i>
-                </div>
-                <div className='relative '>
+            <div className='bg-white rounded-lg w-4/5 shadow-lg hover:shadow-2xl  transition-all duration-300 overflow-hidden'>
+              <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
+                <div className=' h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
                   <h3 className='text-xl pb-2 text-black font-semibold'>
                     What are Intelligent Signals?
                   </h3>
-                  <div className='text-gray-600 answer transition-max-h'>
-                    {/* Answer Content */}
-                    <p className='text-lg text-gray-600 mb-4 '>
+                    <p className='text-lg text-gray-600 '>
                       Intelligent Signals is an ecosystem that utilizes Artificial Intelligence (AI) and Visual Signalling Technology (VST) to analyze crypto charts and identify optimal market entry and exit points for trading cryptocurrencies. It includes the Intelligent Signals Token (INSIG) as the exclusive means of subscribing to the platform. The INSIG token also incorporates a crypto trading bot for automated trading.
                     </p>
-                  </div>
                 </div>
-                <div className='text-3xl hover:rotate-180 transition duration-300 ml-auto'>
+                <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
                   {/* Right Icon */}
-                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  hover:border-yellow-500 hover:text-yellow-500 " />
+                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  group-hover:border-yellow-400 group-hover:text-yellow-400 " />
+                </div>
+              </div>
+            </div>
+            <div className='bg-white rounded-lg w-4/5 shadow-lg hover:shadow-2xl  transition duration-300 overflow-hidden'>
+              <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
+                <div className='h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
+                  <h3 className='text-xl pb-2 text-black font-semibold'>
+                  Why should i use Intelligent Signals?
+                  </h3>
+                    <p className='text-lg text-gray-600 '>
+                    Intelligent Signals is designed to improve traders' performance and consistency in decision-making. It offers an automated and intelligent approach to crypto selection and trading, allowing for 24/7 monitoring and execution of trades without manual intervention. With a 70% success rate, it provides traders with a more reliable and hands-free trading experience.
+                    </p>
+                </div>
+                <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
+                  {/* Right Icon */}
+                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  group-hover:border-yellow-400 group-hover:text-yellow-400 " />
+                </div>
+              </div>
+            </div>
+            <div className='bg-white rounded-lg w-4/5 shadow-lg hover:shadow-2xl  transition duration-300 overflow-hidden'>
+              <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
+                <div className=' h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
+                  <h3 className='text-xl pb-2 text-black font-semibold'>
+                  How does Intelligent Signals utilize pattren recognition?
+                  </h3>
+                    <p className='text-lg text-gray-600 '>
+                      Intelligent Signals leverages AI and Machine Learning to analyze over 23,000 crypto charts and identify chart patterns. These patterns are ranked based on importance, providing traders with a competitive advantage. The Visual Signalling Technology (VST) developed by Intelligent Signals uses a color scheme (red, amber, and green) to simplify the identification and interpretation of patterns.
+                    </p>
+                </div>
+                <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
+                  {/* Right Icon */}
+                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  group-hover:border-yellow-400 group-hover:text-yellow-400 " />
+                </div>
+              </div>
+            </div>
+            <div className='bg-white rounded-lg w-4/5 shadow-lg hover:shadow-2xl  transition duration-300 overflow-hidden'>
+              <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
+                <div className=' h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
+                  <h3 className='text-xl pb-2 text-black font-semibold'>
+                  What features does Intelligent Signals offers?
+                  </h3>
+                    <p className='text-lg text-gray-600 '>
+                    Intelligent Signals offers several essential features, including a trading bot for automated trading based on market signals and user-defined parameters. It also provides a strategy builder and backtester for traders to create and test their trading strategies. Additionally, it incorporates a risk profiler, staking opportunities, new listing alerts, and a community-centric ecosystem.
+                    </p>
+                </div>
+                <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
+                  {/* Right Icon */}
+                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  group-hover:border-yellow-400 group-hover:text-yellow-400 " />
+                </div>
+              </div>
+            </div>
+            <div className='bg-white rounded-lg w-4/5 shadow-lg hover:shadow-2xl  transition duration-300 overflow-hidden'>
+              <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
+                <div className=' h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
+                  <h3 className='text-xl pb-2 text-black font-semibold'>
+                  How does Intelligent Signals contribute to cryptocurrency market?
+                  </h3>
+                    <p className='text-lg text-gray-600 '>
+                    Intelligent Signals contributes to the cryptocurrency market by providing accurate trading signals based on technical analysis and AI. Its pattern recognition technology, GANN analytics, and cognitive recognition enable traders to forecast market movements and make informed trading decisions. The platform aims to improve risk management, offer timely market insights, and create a transparent and engaged community within the crypto space.
+                    </p>
+                </div>
+                <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
+                  {/* Right Icon */}
+                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  group-hover:border-yellow-400 group-hover:text-yellow-400 " />
                 </div>
               </div>
             </div>
 
-            <div className='bg-white w-4/5 relative shadow-xl hover:shadow-2xl hover:scale-105 transition duration-200 overflow-hidden'>
-              <div className='flex items-start px-8 py-4 border-l-4 border-green-400 rounded bg-white  hover:text-black transition duration-300 hover'>
-                <div className='text-3xl text-black'>
-                  {/* Left Icon */}
-                  <i className='fas fa-chevron-left pr-2'></i>
-                </div>
-                <div className='relative'>
-                  <h3 className='text-xl pb-2 text-black font-semibold'>
-                    Why should i use Intelligent Signals?
-                  </h3>
-                  <div className='text-gray-600 answer transition-max-h'>
-                    {/* Answer Content */}
-                    <p className='text-lg text-gray-600 mb-4 '>
-                      Intelligent Signals is designed to improve traders' performance and consistency in decision-making. It offers an automated and intelligent approach to crypto selection and trading, allowing for 24/7 monitoring and execution of trades without manual intervention. With a 70% success rate, it provides traders with a more reliable and hands-free trading experience.
-                    </p>
-                  </div>
-                </div>
-                <div className='text-3xl hover:rotate-180 transition duration-300 ml-auto'>
-                  {/* Right Icon */}
-                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  hover:border-yellow-500 hover:text-yellow-500 " />
-                </div>
-              </div>
-            </div>
-            <div className='bg-white w-4/5 relative shadow-xl hover:shadow-2xl hover:scale-105 transition duration-200 overflow-hidden'>
-              <div className='flex items-start px-8 py-4 border-l-4 border-green-400 rounded bg-white  hover:text-black transition duration-300 hover'>
-                <div className='text-3xl text-black'>
-                  {/* Left Icon */}
-                  <i className='fas fa-chevron-left pr-2'></i>
-                </div>
-                <div className='relative'>
-                  <h3 className='text-xl pb-2 text-black font-semibold'>
-                    How does Intelligent Signals utilize pattren recognition?
-                  </h3>
-                  <div className='text-gray-600 answer transition-max-h'>
-                    {/* Answer Content */}
-                    <p className='text-lg text-gray-600 mb-4 '>
-                      Intelligent Signals leverages AI and Machine Learning to analyze over 23,000 crypto charts and identify chart patterns. These patterns are ranked based on importance, providing traders with a competitive advantage. The Visual Signalling Technology (VST) developed by Intelligent Signals uses a color scheme (red, amber, and green) to simplify the identification and interpretation of patterns.
-                    </p>
-                  </div>
-                </div>
-                <div className='text-3xl hover:rotate-180 transition duration-300 ml-auto'>
-                  {/* Right Icon */}
-                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  hover:border-yellow-500 hover:text-yellow-500 " />
-                </div>
-              </div>
-            </div>
-            <div className='bg-white w-4/5 relative shadow-xl hover:shadow-2xl hover:scale-105 transition duration-200 overflow-hidden'>
-              <div className='flex items-start px-8 py-4 border-l-4 border-green-400 rounded bg-white  hover:text-black transition duration-300 hover'>
-                <div className='text-3xl text-black'>
-                  {/* Left Icon */}
-                  <i className='fas fa-chevron-left pr-2'></i>
-                </div>
-                <div className='relative'>
-                  <h3 className='text-xl pb-2 text-black font-semibold'>
-                    What features does Intelligent Signals offers?
-                  </h3>
-                  <div className='text-gray-600 answer transition-max-h'>
-                    {/* Answer Content */}
-                    <p className='text-lg text-gray-600 mb-4 '>
-                      Intelligent Signals offers several essential features, including a trading bot for automated trading based on market signals and user-defined parameters. It also provides a strategy builder and backtester for traders to create and test their trading strategies. Additionally, it incorporates a risk profiler, staking opportunities, new listing alerts, and a community-centric ecosystem.
-                    </p>
-                  </div>
-                </div>
-                <div className='text-3xl hover:rotate-180 transition duration-300 ml-auto'>
-                  {/* Right Icon */}
-                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  hover:border-yellow-500 hover:text-yellow-500 " />
-                </div>
-              </div>
-            </div>
-            <div className='bg-white w-4/5 relative shadow-xl hover:shadow-2xl hover:scale-105 transition duration-200 overflow-hidden'>
-              <div className='flex items-start px-8 py-4 border-l-4 border-green-400 rounded bg-white  hover:text-black transition duration-300 hover'>
-                <div className='text-3xl text-black'>
-                  {/* Left Icon */}
-                  <i className='fas fa-chevron-left pr-2'></i>
-                </div>
-                <div className='relative'>
-                  <h3 className='text-xl pb-2 text-black font-semibold'>
-                    How does Intelligent Signals contribute to cryptocurrency market?
-                  </h3>
-                  <div className='text-gray-600 answer transition-max-h'>
-                    {/* Answer Content */}
-                    <p className='text-lg text-gray-600 mb-4 '>
-                      Intelligent Signals contributes to the cryptocurrency market by providing accurate trading signals based on technical analysis and AI. Its pattern recognition technology, GANN analytics, and cognitive recognition enable traders to forecast market movements and make informed trading decisions. The platform aims to improve risk management, offer timely market insights, and create a transparent and engaged community within the crypto space.
-                    </p>
-                  </div>
-                </div>
-                <div className='text-3xl hover:rotate-180 transition duration-300 ml-auto'>
-                  {/* Right Icon */}
-                  <BiSolidChevronDown className="w-8 h-8  border-2 rounded-full text-green-500 border-green-500  hover:border-yellow-500 hover:text-yellow-500 " />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
