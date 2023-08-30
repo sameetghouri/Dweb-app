@@ -54,21 +54,21 @@ export default function Home() {
       <div className='py-10 px-6 w-full max-w-6xl flex flex-col items-center md:items-start '>
         <h2 className='text-white text-5xl py-8 '>Latest News</h2>
         <div className='flex flex-col md:flex-row md:items-stretch items-center gap-5  '>
-          <div className='flex flex-col bg-gradient-to-r from-red-500 to-red-400 px-4 py-6  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
-            <h4 className='text-gr2 text-lg font-semibold'>Network Scalability</h4>
-            <h3 className='text-white mt-2 text-lg '>Helium Network boosts speed and reliability with upgrade to Solana Blockchain</h3>
+          <div className='flex flex-col bg-gradient-to-t from-red-500 to-red-400 px-4 py-6  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+            <h4 className='text-black text-lg font-black'>Network Scalability</h4>
+            <h3 className='text-black mt-2 leading-7 '>Helium Network boosts speed and reliability with upgrade to Solana Blockchain</h3>
           </div>
-          <div className='flex flex-col bg-gradient-to-r from-purple-500 to-purple-400  px-4 py-6 rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
-            <h4 className='text-gr2 text-lg font-semibold'>Mobile Carrier</h4>
-            <h3 className='text-white mt-2 text-lg '>Mobile Carrier Nova Labs and T-Mobile Collaborate on Cryptocarrier, Helium Mobile</h3>
+          <div className='flex flex-col bg-gradient-to-t from-purple-500 to-purple-400  px-4 py-6 rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+            <h4 className='text-black text-lg font-black'>Mobile Carrier</h4>
+            <h3 className='text-black mt-2 leading-7 '>Mobile Carrier Nova Labs and T-Mobile Collaborate on Cryptocarrier, Helium Mobile</h3>
           </div>
-          <div className='flex flex-col  bg-gradient-to-r from-blue-500 to-blue-400  px-4 py-6  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
-            <h4 className='text-gr2 text-lg font-semibold'>Coverage Integration</h4>
-            <h3 className='text-white mt-2 text-lg '>Helium Connects Senet Customers in NYC</h3>
+          <div className='flex flex-col  bg-gradient-to-t from-blue-500 to-blue-400  px-4 py-6  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+            <h4 className='text-black text-lg font-black'>Coverage Integration</h4>
+            <h3 className='text-black mt-2 leading-7 '>Helium Connects Senet Customers in NYC</h3>
           </div>
-          <div className='flex flex-col bg-gradient-to-r from-green-500 to-green-400  px-4 py-6  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
-            <h4 className='text-gr2 text-lg font-semibold'>Roaming Partner</h4>
-            <h3 className='text-white mt-2 text-lg '>Actility and Helium Announce Roaming Integration</h3>
+          <div className='flex flex-col bg-gradient-to-t from-green-500 to-green-400  px-4 py-6  rounded-xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-200 ease-in'>
+            <h4 className='text-black text-lg font-black'>Roaming Partner</h4>
+            <h3 className='text-black mt-2 leading-7 '>Actility and Helium Announce Roaming Integration</h3>
           </div>
         </div>
       </div>
@@ -79,20 +79,20 @@ export default function Home() {
       </div>
 
     {/* Video Section */}
-      <div className='flex flex-col pt-16 items-center w-full min-h-screen'>
-        <div className='flex justify-center pb-6'>
-          <button className='py-2 px-5 text-white rounded-l  bg-gradient-to-b  from-[#679df5] to-[#0061ff] hover:scale-105 transition duration-300 '>Buy Insign token</button>
-          <button className='py-2 px-5 text-white rounded-r  bg-gradient-to-b from-[#ff88a5] to-[#d82955]   hover:scale-105 transition duration-300'>White Paper</button>
+      <div className='py-12 flex flex-col items-center w-full min-h-screen'>
+      <div className=' bg-gradient-to-b from-[#57dada] to-[#03adad]  w-full flex justify-center'>
+        <div className='py-10 px-4 w-2/3 flex justify-around items-center'>
+          <button className='py-2 px-5 text-white text-lg fpnt-semibold rounded-full  bg-gradient-to-b  from-[#679df5] to-[#0061ff] hover:scale-105 transition duration-300 '>Buy Insign token</button>
+          <button className=' py-2 px-5 text-white text-lg fpnt-semibold rounded-full  bg-gradient-to-b from-[#ff88a5] to-[#d82955]   hover:scale-105 transition duration-300'>White Paper</button>
         </div>
-       
-        <div className='bg-[#686767] rounded-3xl  px-10 overflow-x-auto py-8 w-2/3 flex flex-col  items-center '>
+      </div>       
+        <div className='bg-[#686767] rounded-3xl mt-10 px-10 overflow-x-auto py-8 w-2/3 flex flex-col  items-center '>
            <div className='pb-6 flex flex-col  gap-2'>
           <h4 className='text-white text-lg md:text-3xl'>In this video you will learn </h4>
           <div className='flex'>
           <h4 className='text-white text-lg md:text-3xl'>How this website works </h4>
           <FaRegLightbulb className='w-6 h-6 md:w-8 md:h-8 text-white hover:text-yellow-500 hover:animate-pulse' />
-          </div>
-               
+          </div>               
         </div>
           <iframe className='rounded-3xl' width="650" height="366" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -105,7 +105,6 @@ export default function Home() {
             <h3 className='text-white font-semibold text-2xl'>The next success story</h3>
           </div>
           <div className='lg:ml-auto'>
-
             <Link className='px-4 py-3 ml-auto font-semibold bg-gray-800 text-white shadow-lg rounded-xl  hover:bg-gray-100 hover:text-gr transition duration-300 ease-in' href='/'>Get in Touch</Link>
           </div>
         </div>
@@ -141,6 +140,24 @@ export default function Home() {
             <BsCurrencyExchange className="w-14 h-14 cursor-pointer text-blue-400 " />
             <h4 className='text-gray-100 text-2xl font-semibold'>Traders with a ten-year track record of losing continue to trade!</h4>
           </div>
+        </div>
+        <div className='p-10 w-full max-w-4xl flex flex-col md:flex-row md:items-start md:justify-center items-center gap-x-12 gap-y-7'>
+          <div className='flex flex-col items-center p-4 border-4 border-blue-400 rounded-2xl w-3/4 md:w-1/3'>
+           <h2 className='text-5xl py-3 font-bold text-blue-400'>2-5</h2>
+           <p className='text-2xl font-bold text-blue-400'>Crypto Signals</p>
+           <p className='text-2xl font-bold text-blue-400'>Per day</p>
+          </div>
+          <div className='flex flex-col items-center p-4 border-4 border-blue-400 rounded-2xl w-3/4 md:w-1/3'>
+           <h2 className='text-5xl py-3 font-bold text-blue-400'>82%</h2>
+           <p className='text-2xl font-bold text-blue-400'>Success</p>
+           <p className='text-2xl font-bold text-blue-400'>Rate</p>
+          </div>
+          <div className='flex flex-col items-center p-4 border-4 border-blue-400 rounded-2xl w-3/4 md:w-1/3'>
+           <h2 className='text-5xl py-3 font-bold text-blue-400'>50k+</h2>
+           <p className='text-2xl font-bold text-blue-400'>Telegram</p>
+           <p className='text-2xl font-bold text-blue-400'>Members</p>
+          </div>
+         
         </div>
 
         {/* OurGoal Banner */}
@@ -253,7 +270,11 @@ export default function Home() {
             Unlike traditional programming, ML algorithms enable computers to learn and improve their performance on a specific task by processing and making predictions or decisions based on that data. The more data the algorithm is trained on, the more accurate its predictions become. </p>
           <p className='text-gray-700 text-xl pt-2'>AI and ML have already significantly impacted many industries by enabling machines to perform tasks that were once considered exclusive to humans, such as decision-making, problem-solving, and creativity. ML is used in various applications, including image and speech recognition, natural language processing, fraud detection, and autonomous driving.
             However, the rapid growth of AI and ML also raises important ethical, social, and economic questions that must be addressed.</p>
-          <button className='mt-4 px-6 py-4 font-semibold bg-gre shadow-lg text-white rounded-lg hover:scale-105 hover:bg-sk transition duration-200 ease-in '>Use The Network</button>
+          
+            <button className="mt-4 rounded-xl px-6 py-4 overflow-hidden relative group cursor-pointer border-2 font-semibold bg-purple-600 text-black ">
+              <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-gray-700 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <span className="relative text-white transition duration-[700ms]  ease">Use The Network</span>
+            </button>
         </div>
 
         <div className='pb-4 z-1 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>

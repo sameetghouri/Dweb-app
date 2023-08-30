@@ -9,23 +9,23 @@ const Nav = () => {
 
     return (
     <nav className='w-full z-10 fixed bg-gr opacity-90 p-3 flex  border-b border-gr2 '>
-        <div className='ml-2 mr-4'>
+        <div className='ml-2 mr-4 hover:scale-95 transition duration-300 ease-in-out'>
         <Link href="/" >
         <Image  src="/home-1.png" alt='home' width={115} height={50} />
         </Link>
         </div>
         
         <div className='hidden ml-4  mr-2  overflow-hidden xl:flex xl:gap-6 xl:items-end '>     
-        <Link href="/" className= "hover:text-sk border-b border-gr hover:border-sk  transition duration-300 ease-in-out text-white font-semibold" style={{fontSize: '1.2vw'}}>Home</Link>
-        <Link href="/" className="hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold "style={{fontSize: '1.2vw'}}>About Us</Link>
-        <Link href="/" className="hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold "style={{fontSize: '1.2vw'}}>Sevices</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold " style={{fontSize: '1.2vw'}}>How It Works</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Blog</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Special Offers</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Contact Us</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Performance</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>FAQ</Link>
-        <Link href="/" className= " hover:text-sk border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Login/Signup</Link>
+        <Link href="/" className= "hover:text-sk hover:scale-95 border-b border-gr hover:border-sk  transition duration-300 ease-in-out text-white font-semibold" style={{fontSize: '1.2vw'}}>Home</Link>
+        <Link href="/" className="hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold "style={{fontSize: '1.2vw'}}>About Us</Link>
+        <Link href="/" className="hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold "style={{fontSize: '1.2vw'}}>Sevices</Link>
+        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold " style={{fontSize: '1.2vw'}}>How It Works</Link>
+        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Blog</Link>
+        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Special Offers</Link>
+        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Contact Us</Link>
+        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Performance</Link>
+        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>FAQ</Link>
+        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Login/Signup</Link>
 
         </div>
         
