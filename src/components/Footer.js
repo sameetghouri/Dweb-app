@@ -1,5 +1,4 @@
-import Link  from 'next/link';
-import Image  from 'next/image';
+import { Link } from "react-router-dom";
 import {SiMinutemailer} from 'react-icons/si';
 import {FiMail} from 'react-icons/fi';
 import {BiUser} from 'react-icons/bi';
@@ -17,7 +16,7 @@ const Footer = () => {
             <p className='text-gray-400 text-lg'>We're here for you, waiting to answer your queries, our team is happy to help you.</p>
             <div className='flex gap-2'>
                 
-                <Link href="/" className= "hover:text-green-400 flex transition duration-200 ease-in text-white ">
+                <Link to="/" className= "hover:text-green-400 flex transition duration-200 ease-in text-white ">
                 <SiMinutemailer className='w-6 h-6 mr-2  text-green-400'/>
                 intellsignals.entertainment@gmail.com</Link>
             </div>
@@ -26,19 +25,19 @@ const Footer = () => {
                 <h2 className=' text-gray-300 text-2xl font-semibold '>Lets Get in touch with us</h2>
                 <div className='flex flex-col gap-y-5'>
                 <div className='flex relative items-center '>
-                <BiUser className='absolute left-1 w-9 h-9 p-1 text-gray-600' />
+                <BiUser className='absolute left-1 w-9 h-9 p-1 text-gray-500' />
                 <input className='pl-12 rounded bg-gray-200 shadow-lg w-full  p-2 placeholder:text-gr1 ' type='text' placeholder='Full name'/>
                 </div>
                 <div className='flex relative items-center '>
-                <FiMail className=' absolute left-1 w-9 h-9 mr-2 text-gray-600'/>
+                <FiMail className=' absolute left-1 w-9 h-9 mr-2 text-gray-500'/>
                 <input className='pl-12 w-full rounded bg-gray-200 shadow-lg   p-2 placeholder:text-gr1 ' type='email' placeholder='Email Address'/>
                 </div>
                 <div className='flex relative items-center'>
-                <MdSubject className='absolute left-1 w-9 h-9 mr-2 text-gray-600'/>    
+                <MdSubject className='absolute left-1 w-9 h-9 mr-2 text-gray-500'/>    
                 <input className='pl-12 w-full rounded bg-gray-200 shadow-lg  p-2 placeholder:text-gr1 ' type='text' placeholder='Enter Your Subject'/>
                 </div>
                 <div className='flex relative items-center'>
-                <AiOutlineMessage className='absolute left-1 top-2 w-9 h-9 mr-2 text-gray-600'/>
+                <AiOutlineMessage className='absolute left-1 top-2 w-9 h-9 mr-2 text-gray-500'/>
                 <textarea className='pl-12 w-full p-4 rounded bg-gray-200  shadow-lg   placeholder:text-gr1 ' placeholder='Message'></textarea>
                 </div>
                 <button type='submit' className='text-white px-4 py-2 rounded-lg bg-sk hover:bg-sk1 transition duration-200'>Send Message</button>
@@ -51,41 +50,41 @@ const Footer = () => {
         <div className='py-10 px-2 w-full  border-b border-gr1 grid lg:grid-cols-4 grid-cols-2 gap-4 text-white'>
         <div className='col-span-1 flex flex-col gap-3'>
             <h2 className='font-bold text-lg'>Learn</h2>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Home</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">About Us</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Sevices</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">How It Works</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Home</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">About Us</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Sevices</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">How It Works</Link>
         
 
         </div>
         <div className='  col-span-1 flex flex-col gap-3'>
         <h2 className='  font-bold text-lg'>Quick Links</h2>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Performance</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Blog</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Terms & Privacy Policy</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Special Offers</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Performance</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Blog</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Terms & Privacy Policy</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Special Offers</Link>
 
         </div>
         <div className='  col-span-1 flex flex-col gap-3'>
         <h2 className=' font-bold text-lg '>Get In Touch</h2>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Contact Us</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">FAQ</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Login/Signup</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Contact Us</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">FAQ</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Login/Signup</Link>
 
         </div>
         
         
         <div className='col-span-1 flex flex-col gap-3'>
         <h2 className='font-bold text-lg'>Social Links</h2>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Facebook</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Instagram</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Twitter</Link>
-        <Link href="/" className= "hover:text-white text-lg  text-gr1 ">Linkedin</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Facebook</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Instagram</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Twitter</Link>
+        <Link to="/" className= "hover:text-white text-lg  text-gr1  ">Linkedin</Link>
 
         </div>
         </div>
-        <div className='py-10 pl-2 w-full text-white flex items-center'>
-        <Image  src="/home-1.png" alt='home' width={130} height={65} />
+        <div className='py-10 pl-2 w-full text-white flex items-center '>
+        <img  src="/img/home-1.png" alt='home' className="w-32 h-auto hover:scale-95 transition duration-300 ease-in-out"/>
         <button type='submit' className='text-white ml-auto lg:mr-28  px-3 py-2 rounded-lg bg-sk hover:bg-sk1 transition duration-200'>Subscribe Now</button>
 
 
@@ -95,16 +94,16 @@ const Footer = () => {
         <div className="flex flex-col items-center w-full  pt-8  pb-3 bg-gr2 gap-y-4 ">
           <div className='flex items-center gap-4'>
             <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
-            <Image  src="/wa.png" alt='home' width={24} height={24} />
+            <img  src="/img/wa.png" alt='home' className="w-5 h-5" />
             </div>
             <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
-            <Image  src="/li.png" alt='home' width={24} height={24} />
+            <img  src="/img/li.png" alt='home' className="w-5 h-5" />
             </div>
             <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
-            <Image  src="/gm.png" alt='home' width={24} height={24} />
+            <img  src="/img/gm.png" alt='home' className="w-5 h-5" />
             </div>
             <div className='bg-white p-2 rounded-full hover:scale-105 transition duration-100'>
-            <Image  src="/tp.png" alt='home' width={24} height={24} />
+            <img  src="/img/tp.png" alt='home' className="w-5 h-5" />
             </div>
           </div>
         <div><p className='text-white'>@copyright2023 IntellSignals.com</p></div>
