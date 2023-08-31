@@ -6,9 +6,9 @@ import { FaWalking } from 'react-icons/fa'
 import { BiWallet } from 'react-icons/bi'
 import { BsCurrencyExchange } from 'react-icons/bs'
 import { FaRegLightbulb } from 'react-icons/fa'
-import { FaUsers} from 'react-icons/fa'
+import { FaUsers } from 'react-icons/fa'
 import { BiSolidChevronDown } from 'react-icons/bi'
-import {BsFillPersonFill,BsFillPeopleFill} from 'react-icons/bs'
+import { BsFillPersonFill, BsFillPeopleFill } from 'react-icons/bs'
 
 
 export default function Home() {
@@ -78,22 +78,22 @@ export default function Home() {
         <Image className='pt-4' src="/mainimg.png" alt='mainimg' width={1000} height={500} />
       </div>
 
-    {/* Video Section */}
+      {/* Video Section */}
       <div className='py-12 flex flex-col items-center w-full min-h-screen'>
-      <div className=' bg-gradient-to-b from-[#57dada] to-[#03adad]  w-full flex justify-center'>
-        <div className='py-10 px-4 w-2/3 flex justify-around items-center'>
-          <button className='py-2 px-5 text-white text-lg fpnt-semibold rounded-full  bg-gradient-to-b  from-[#679df5] to-[#0061ff] hover:scale-105 transition duration-300 '>Buy Insign token</button>
-          <button className=' py-2 px-5 text-white text-lg fpnt-semibold rounded-full  bg-gradient-to-b from-[#ff88a5] to-[#d82955]   hover:scale-105 transition duration-300'>White Paper</button>
+        <div className=' bg-gradient-to-b from-[#57dada] to-[#03adad]  w-full flex justify-center'>
+          <div className='py-10 px-4 w-2/3 flex justify-around items-center'>
+            <button className='py-2 px-5 text-white text-lg fpnt-semibold rounded-xl  bg-gradient-to-b  from-[#679df5] to-[#0061ff] hover:scale-105 transition duration-300 '>Buy Insign token</button>
+            <button className=' py-2 px-5 text-white text-lg fpnt-semibold rounded-xl  bg-gradient-to-b from-[#ff88a5] to-[#d82955]   hover:scale-105 transition duration-300'>White Paper</button>
+          </div>
         </div>
-      </div>       
         <div className='bg-[#686767] rounded-3xl mt-10 px-10 overflow-x-auto py-8 w-2/3 flex flex-col  items-center '>
-           <div className='pb-6 flex flex-col  gap-2'>
-          <h4 className='text-white text-lg md:text-3xl'>In this video you will learn </h4>
-          <div className='flex'>
-          <h4 className='text-white text-lg md:text-3xl'>How this website works </h4>
-          <FaRegLightbulb className='w-6 h-6 md:w-8 md:h-8 text-white hover:text-yellow-500 hover:animate-pulse' />
-          </div>               
-        </div>
+          <div className='pb-6 flex flex-col  gap-2'>
+            <h4 className='text-white text-lg md:text-3xl'>In this video you will learn </h4>
+            <div className='flex'>
+              <h4 className='text-white text-lg md:text-3xl'>How this website works </h4>
+              <FaRegLightbulb className='w-6 h-6 md:w-8 md:h-8 text-white hover:text-yellow-500 hover:animate-pulse' />
+            </div>
+          </div>
           <iframe className='rounded-3xl' width="650" height="366" src="https://www.youtube.com/embed/lCUlyvf9xrs" title="Signal Tokens Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
@@ -143,21 +143,21 @@ export default function Home() {
         </div>
         <div className='p-10 w-full max-w-4xl flex flex-col md:flex-row md:items-start md:justify-center items-center gap-x-12 gap-y-7'>
           <div className='flex flex-col items-center p-4 border-4 border-blue-400 rounded-2xl w-3/4 md:w-1/3'>
-           <h2 className='text-5xl py-3 font-bold text-blue-400'>2-5</h2>
-           <p className='text-2xl font-bold text-blue-400'>Crypto Signals</p>
-           <p className='text-2xl font-bold text-blue-400'>Per day</p>
+            <h2 className='text-5xl py-3 font-bold text-blue-400'>2-5</h2>
+            <p className='text-2xl font-bold text-blue-400'>Crypto Signals</p>
+            <p className='text-2xl font-bold text-blue-400'>Per day</p>
           </div>
           <div className='flex flex-col items-center p-4 border-4 border-blue-400 rounded-2xl w-3/4 md:w-1/3'>
-           <h2 className='text-5xl py-3 font-bold text-blue-400'>82%</h2>
-           <p className='text-2xl font-bold text-blue-400'>Success</p>
-           <p className='text-2xl font-bold text-blue-400'>Rate</p>
+            <h2 className='text-5xl py-3 font-bold text-blue-400'>82%</h2>
+            <p className='text-2xl font-bold text-blue-400'>Success</p>
+            <p className='text-2xl font-bold text-blue-400'>Rate</p>
           </div>
           <div className='flex flex-col items-center p-4 border-4 border-blue-400 rounded-2xl w-3/4 md:w-1/3'>
-           <h2 className='text-5xl py-3 font-bold text-blue-400'>50k+</h2>
-           <p className='text-2xl font-bold text-blue-400'>Telegram</p>
-           <p className='text-2xl font-bold text-blue-400'>Members</p>
+            <h2 className='text-5xl py-3 font-bold text-blue-400'>50k+</h2>
+            <p className='text-2xl font-bold text-blue-400'>Telegram</p>
+            <p className='text-2xl font-bold text-blue-400'>Members</p>
           </div>
-         
+
         </div>
 
         {/* OurGoal Banner */}
@@ -179,7 +179,7 @@ export default function Home() {
               </div>
             </div>
             <div className='flex  w-4/5 md:w-1/3 gap-6'>
-            <FaUsers className="w-14 h-14 cursor-pointer text-blue-400 " />
+              <FaUsers className="w-14 h-14 cursor-pointer text-blue-400 " />
               <div className='flex flex-col '>
                 <h3 className='text-black text-5xl font-semibold'>500K</h3>
                 <h4 className='text-gray-600'>Active Subscriber in 5 Year</h4>
@@ -199,7 +199,7 @@ export default function Home() {
             In the context of staking, crypto signals help traders determine which cryptocurrencies to stake and for how long. For example, a signal may indicate that a particular cryptocurrency will likely
             experience price appreciation over the next few months, making it a good candidate for staking.
           </p>
-          <button className='mt-4 px-4 py-2 mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Learn More</button>
+          <button className='mt-4 px-8 py-3 mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Learn More</button>
         </div>
         <div className='w-2/3 flex justify-end lg:pl-6 lg:w-1/2 py-8  '>
           <Image src="/ab-img.png" alt='a' width={500} height={500} />
@@ -270,11 +270,11 @@ export default function Home() {
             Unlike traditional programming, ML algorithms enable computers to learn and improve their performance on a specific task by processing and making predictions or decisions based on that data. The more data the algorithm is trained on, the more accurate its predictions become. </p>
           <p className='text-gray-700 text-xl pt-2'>AI and ML have already significantly impacted many industries by enabling machines to perform tasks that were once considered exclusive to humans, such as decision-making, problem-solving, and creativity. ML is used in various applications, including image and speech recognition, natural language processing, fraud detection, and autonomous driving.
             However, the rapid growth of AI and ML also raises important ethical, social, and economic questions that must be addressed.</p>
-          
-            <button className="mt-4 rounded-xl px-6 py-4 overflow-hidden relative group cursor-pointer border-2 font-semibold bg-purple-600 text-black ">
-              <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-gray-700 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-              <span className="relative text-white transition duration-[700ms]  ease">Use The Network</span>
-            </button>
+
+          <button className="mt-4 rounded-xl px-6 py-4 overflow-hidden relative group cursor-pointer border-2 font-semibold bg-purple-600 text-black ">
+            <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-gray-700 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+            <span className="relative text-white transition duration-[700ms]  ease">Use The Network</span>
+          </button>
         </div>
 
         <div className='pb-4 z-1 px-4 w-full max-w-6xl flex flex-col md:flex-row md:items-stretch items-center gap-x-12 gap-y-7'>
@@ -311,7 +311,7 @@ export default function Home() {
         </div>
       </div>
 
-    {/* RoadMap */}
+      {/* RoadMap */}
       <div className='py-10 bg-gray-100  w-full flex flex-col items-center gap-10 '>
         <h2 className='text-5xl py-8 font-bold text-black'>Our Roadmap</h2>
         <div className='grid grid-cols-3'>
@@ -355,7 +355,7 @@ export default function Home() {
               </li>
             </ol>
           </div>
-          
+
         </div>
       </div>
 
@@ -559,9 +559,9 @@ export default function Home() {
                   <h3 className='text-xl pb-2 text-black font-semibold'>
                     What are Intelligent Signals?
                   </h3>
-                    <p className='text-lg text-gray-600 '>
-                      Intelligent Signals is an ecosystem that utilizes Artificial Intelligence (AI) and Visual Signalling Technology (VST) to analyze crypto charts and identify optimal market entry and exit points for trading cryptocurrencies. It includes the Intelligent Signals Token (INSIG) as the exclusive means of subscribing to the platform. The INSIG token also incorporates a crypto trading bot for automated trading.
-                    </p>
+                  <p className='text-lg text-gray-600 '>
+                    Intelligent Signals is an ecosystem that utilizes Artificial Intelligence (AI) and Visual Signalling Technology (VST) to analyze crypto charts and identify optimal market entry and exit points for trading cryptocurrencies. It includes the Intelligent Signals Token (INSIG) as the exclusive means of subscribing to the platform. The INSIG token also incorporates a crypto trading bot for automated trading.
+                  </p>
                 </div>
                 <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
                   {/* Right Icon */}
@@ -573,11 +573,11 @@ export default function Home() {
               <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
                 <div className='h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
                   <h3 className='text-xl pb-2 text-black font-semibold'>
-                  Why should i use Intelligent Signals?
+                    Why should i use Intelligent Signals?
                   </h3>
-                    <p className='text-lg text-gray-600 '>
+                  <p className='text-lg text-gray-600 '>
                     Intelligent Signals is designed to improve traders' performance and consistency in decision-making. It offers an automated and intelligent approach to crypto selection and trading, allowing for 24/7 monitoring and execution of trades without manual intervention. With a 70% success rate, it provides traders with a more reliable and hands-free trading experience.
-                    </p>
+                  </p>
                 </div>
                 <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
                   {/* Right Icon */}
@@ -589,11 +589,11 @@ export default function Home() {
               <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
                 <div className=' h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
                   <h3 className='text-xl pb-2 text-black font-semibold'>
-                  How does Intelligent Signals utilize pattren recognition?
+                    How does Intelligent Signals utilize pattren recognition?
                   </h3>
-                    <p className='text-lg text-gray-600 '>
-                      Intelligent Signals leverages AI and Machine Learning to analyze over 23,000 crypto charts and identify chart patterns. These patterns are ranked based on importance, providing traders with a competitive advantage. The Visual Signalling Technology (VST) developed by Intelligent Signals uses a color scheme (red, amber, and green) to simplify the identification and interpretation of patterns.
-                    </p>
+                  <p className='text-lg text-gray-600 '>
+                    Intelligent Signals leverages AI and Machine Learning to analyze over 23,000 crypto charts and identify chart patterns. These patterns are ranked based on importance, providing traders with a competitive advantage. The Visual Signalling Technology (VST) developed by Intelligent Signals uses a color scheme (red, amber, and green) to simplify the identification and interpretation of patterns.
+                  </p>
                 </div>
                 <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
                   {/* Right Icon */}
@@ -605,11 +605,11 @@ export default function Home() {
               <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
                 <div className=' h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
                   <h3 className='text-xl pb-2 text-black font-semibold'>
-                  What features does Intelligent Signals offers?
+                    What features does Intelligent Signals offers?
                   </h3>
-                    <p className='text-lg text-gray-600 '>
+                  <p className='text-lg text-gray-600 '>
                     Intelligent Signals offers several essential features, including a trading bot for automated trading based on market signals and user-defined parameters. It also provides a strategy builder and backtester for traders to create and test their trading strategies. Additionally, it incorporates a risk profiler, staking opportunities, new listing alerts, and a community-centric ecosystem.
-                    </p>
+                  </p>
                 </div>
                 <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
                   {/* Right Icon */}
@@ -621,11 +621,11 @@ export default function Home() {
               <div className='group flex items-start px-4 sm:px-8 py-4 border-l-4 hover:border-yellow-400  rounded bg-white  hover:text-black transition duration-200'>
                 <div className=' h-10 relative group-hover:h-full overflow-hidden transition-all duration-300'>
                   <h3 className='text-xl pb-2 text-black font-semibold'>
-                  How does Intelligent Signals contribute to cryptocurrency market?
+                    How does Intelligent Signals contribute to cryptocurrency market?
                   </h3>
-                    <p className='text-lg text-gray-600 '>
+                  <p className='text-lg text-gray-600 '>
                     Intelligent Signals contributes to the cryptocurrency market by providing accurate trading signals based on technical analysis and AI. Its pattern recognition technology, GANN analytics, and cognitive recognition enable traders to forecast market movements and make informed trading decisions. The platform aims to improve risk management, offer timely market insights, and create a transparent and engaged community within the crypto space.
-                    </p>
+                  </p>
                 </div>
                 <div className='text-3xl group-hover:rotate-180 transition duration-500 ml-auto'>
                   {/* Right Icon */}

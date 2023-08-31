@@ -20,7 +20,7 @@ const Nav = () => {
         <Link href="/" className="hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold "style={{fontSize: '1.2vw'}}>About Us</Link>
         <Link href="/" className="hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out text-white font-semibold "style={{fontSize: '1.2vw'}}>Sevices</Link>
         <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold " style={{fontSize: '1.2vw'}}>How It Works</Link>
-        <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Blog</Link>
+        <Link href="/blog" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Blog</Link>
         <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Special Offers</Link>
         <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Contact Us</Link>
         <Link href="/" className= " hover:text-sk hover:scale-95 border-b border-gr hover:border-sk transition duration-300 ease-in-out  text-white font-semibold "style={{fontSize: '1.2vw'}}>Performance</Link>
