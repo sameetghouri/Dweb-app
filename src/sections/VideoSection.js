@@ -14,7 +14,7 @@ const VideoSection = () => {
             </button>
           </div>
         </div>
-        <div className='bg-[#686767] hover:bg-[#7f7e7e] rounded-b-3xl  px-10 overflow-x-auto py-6 w-2/3 flex flex-col  items-center hover:scale-105 transition duration-400'>
+        <div className='bg-[#686767] hover:bg-[#7f7e7e] rounded-b-3xl  px-10 overflow-x-auto py-6 w-2/3 flex flex-col  items-center '>
           <div className='pb-6 flex flex-col  gap-2'>
             <h4 className='text-white md:font-semibold  text-lg md:text-3xl'>In this video you will learn </h4>
             <div className='flex items-center'>

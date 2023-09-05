@@ -3,7 +3,7 @@ const IntroductiontoAI = () => {
         <div className='  bg-white min-h-screen w-full flex flex-col items-center '>
         
         <img className=' w-full h-full' src="/img/b4.jpg" alt='b4' />
-        <div className='relative -top-36 w-4/5 bg-opacity-0 flex flex-col items-center gap-4'>
+        <div className='relative sm:-top-36 w-4/5 bg-opacity-0 flex flex-col items-center gap-4'>
           <h2 className='text-[42px] font-bold text-black'>Introduction to AI and ML with Application and Future</h2>
           <h3 className='text-4xl  font-semibold text-gray-700'>Massive, Decentralized Connectivity</h3>
           <p className='text-gray-700 text-xl pt-2'>Machine Learning (ML) is a subset of Artificial Intelligence (AI) that can potentially transform various industries, including finance and Cryptocurrency.

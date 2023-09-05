@@ -31,7 +31,7 @@ const Home = () => {
           <button className='mt-4 w-1/2 px-4 py-2 lg:mr-auto font-semibold bg-sk text-white rounded-lg hover:translate-y-1 hover:bg-sk1 transition duration-300 ease-in-out '>Start Now</button>
         </div>
         <div className='flex justify-center w-3/4 lg:w-1/2 pt-8 lg:pr-2 '>
-          <img src="/img/base.png" alt='a' className='w-3/4 h-auto rounded-xl hover:scale-95 transition duration-300 ease-in-out'  />
+          <img src="/img/base.png" alt='a' className=' h-auto rounded-xl hover:scale-95 transition duration-300 ease-in-out'  />
         </div>
       </div>
 
