@@ -1,4 +1,30 @@
 const Plans = () => {
+
+  const regular =[
+    {
+      title: 'Free: $0',
+      head: 'The perfect solution to try out',
+      days: 1,
+      signals: 1,
+      description:[
+        {title: "1 Free Signal per day",},
+        {title: "Perfect for beginners and those looking to dip their toes into crypto trading."}
+      ]
+    }
+  ];
+  const discounted =[
+    {
+      title: 'Premium: $129/3 Months',
+      head: 'The perfect solution to try out',
+      days: 1,
+      signals: 1,
+      description:[
+        {title: "1 Free Signal per day",},
+        {title: "Perfect for beginners and those looking to dip their toes into crypto trading."}
+      ]
+    }
+  ]
+
     return ( 
         <div className=' flex flex-col bg-gray-200 items-center py-8  w-full '>
         <h2 className='text-5xl py-4 font-bold text-black'>Pricing</h2>
