@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import { HiMenuAlt2 } from 'react-icons/hi'
 import { useState } from 'react';
 const Nav = () => {
-    const [opennav, setopennav] = useState(false)
-    const openfun = () => { setopennav(!opennav) }
 
     return (
         <nav className='w-full z-10 fixed bg-gr opacity-90 p-3 flex  border-b border-gr2 '>
@@ -47,8 +45,6 @@ const Nav = () => {
                   <li><Link to="/" className="hover:text-sk border-gr hover:border-sk  transition duration-300 ease-in-out text-white font-bold text-lg" >Performance</Link></li>
                   <li><Link to="/" className="hover:text-sk border-gr hover:border-sk  transition duration-300 ease-in-out text-white font-bold text-lg" >FAQ</Link></li>
                   <li><Link to="/" className="hover:text-sk border-gr hover:border-sk  transition duration-300 ease-in-out text-white font-bold text-lg" >Login/Signup</Link></li>
-
-
 
                 </ul>
               </div>
