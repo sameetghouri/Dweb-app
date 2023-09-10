@@ -22,9 +22,9 @@ const FAQ1 = () => {
         }
     ]
     return (
-        <div className='relative py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
+        <div className=' py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
             <div>
-                <div className='relative py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
+                <div className=' py-8 bg-gray-100 min-h-screen w-full flex flex-col items-center gap-8 '>
                     <h2 className='text-5xl py-12 px-4 font-bold text-black'>Frequently Asked  <span className='text-green-500'>Questions</span> </h2>
 
                     {faq.map((item, index) => {

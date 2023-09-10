@@ -14,7 +14,6 @@ import IntelligentSignalEcosystem from '../sections/IntelligentSignalEcosystem';
 import Plans from '../sections/Plans';
 import FoundingPartners from '../sections/FoundingPartners';
 import FAQ from '../sections/FAQ';
-import FAQ1 from '../sections/FAQ';
 const Home = () => {
     return ( <>
         <div className='flex flex-col items-center mt-20 mb-4 lg:flex-row  w-full   min-h-screen'>
